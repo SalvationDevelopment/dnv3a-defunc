@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="3000px" height="2000px"
+xml:space="preserve">
+<g id="PathID_1134" transform="matrix(1, 0, 0, 1, 0, 0)">
+<radialGradient
+id="RadialGradID_402" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.8996, 0, 0, 1.8996, 1500, 1000)" spreadMethod ="pad" cx="0" cy="0" r="819.2" fx="0" fy="0" >
+<stop  offset="0.584314"  style="stop-color:#333333;stop-opacity:1" />
+<stop  offset="1"  style="stop-color:#CCCCCC;stop-opacity:1" />
+<stop  offset="1"  style="stop-color:#FFFFFF;stop-opacity:1" />
+<stop  offset="1"  style="stop-color:#FFFFFF;stop-opacity:1" />
+</radialGradient>
+<path style="fill:url(#RadialGradID_402) " d="M2862.8 642.6L2357.35 137.15L642.6 137.15L137.15 642.55L137.15 1357.35L642.55 1862.85L2357.35 1862.85L2862.85 1357.3L2862.8 642.6M3000 1414.15L2414.15 2000L585.75 2000L0 1414.2L0 585.75L585.8 0L2414.15 0L2999.95 585.8L3000 1414.15" />
+<radialGradient
+id="RadialGradID_403" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.71991, 0, 0, 1.71991, 1500, 1000)" spreadMethod ="pad" cx="0" cy="0" r="819.2" fx="0" fy="0" >
+<stop  offset="0.647059"  style="stop-color:#999999;stop-opacity:1" />
+<stop  offset="1"  style="stop-color:#333333;stop-opacity:1" />
+<stop  offset="1"  style="stop-color:#FFFFFF;stop-opacity:1" />
+<stop  offset="1"  style="stop-color:#FFFFFF;stop-opacity:1" />
+</radialGradient>
+<path style="fill:url(#RadialGradID_403) " d="M2862.85 1357.3L2357.35 1862.85L642.55 1862.85L137.15 1357.35L137.15 642.55L642.6 137.15L2357.35 137.15L2862.8 642.6L2862.85 1357.3" />
+</g>
+</svg>

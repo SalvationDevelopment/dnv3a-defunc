@@ -1,0 +1,220 @@
+The concatenation of the socket messages defines a (potentially infinite) list
+of null-terminated parts, events. (So events can span several messages, even if
+they usually do not.)
+Each event is a comma-separated list with the first value being the event type.
+Commas in the data are escaped as \, backslashes as \\.
+
+List of events:
+
+Legend:
+
++ = we handle it
+ModStatus = 0 for regular users, >0 for mods in increasing order of importance I think
+LoginToken = token gotten from the login, equal to md5(password)
+DeckLegality = adv/trad/unl
+DuelMode = ar/au/tu/uu (first char = advanced/traditional/unlimited, second is rated/unrated)
+MatchMode = s/n/m (single+siding, single, match)
+UserTitle = Username in duel mode, "User1 ({Rating}) | User2 ({Rating})" in watch mode
+Rating = Format "1178/437" or so, or empty
+DuelListToken = 32 random hex-chars
+DuelState = Rock-paper-scissors/Turn pick/Duel/Siding
+Avatar = E.g. "0/1.jpg". Appended to AVATAR_START in urls.txt for a ~500x500 px image. Can perhaps be empty.
+WatcherListStr = E.g. "simonlindholm,0,simonlindholm4,0".
+CardType = normal/effect/ritual/fusion/synchro/xyz/spell/trap(/token?)
+Attribute = dark/
+FieldPosition = 0..4 for spell/trap, 5 for field spell, 6..10 for monsters, blank if not applicable. Might also have a meaning for underlays?
+
+Card =
+	(card type id (slightly larger than the image id). E.g. 3517. -1 for tokens),
+	(card "number", e.g. 88264978. Perhaps unique? Used no-where, it seems... (at least for duels)),
+	(card name, e.g. "Red-Eyes Darkness Metal Dragon"),
+	(card image name, e.g. 2323.scf. Can perhaps be empty),
+	("treated-as", almost always equal to the card name, but probably differs for e.g. harpies. Used for limits),
+	{CardType},
+	(type, e.g. "Dragon/Effect", also "continuous" etc. I guess),
+	{Attribute},
+	Card text,
+	(ATK, or ?),
+	(DEF or ?),
+	(level for monsters, else blank),
+	(card limit),
+	{PreloadInfo} (ignored for now)
+
+PreloadInfo = E.g. 31137, 22080, c11ef232ae77f020ecc4e4ad7e220577. Sent when dueling, can be all empty otherwise. In order: offset into preload array, length of data, decryption key. See getPreloadPicture.
+Place = {deck,grave,rfg,extra,hand,field,underlay}[12] or 'underlay' (for moves).
+
+OptWatchArgs = (see watchDuelStart)
+	If DuelState = "Duel":
+		{Phase},
+		(turn :bool, "true" for player 1),
+		(latest field spell player :bool, "true" for player 1),
+		(life points, player 1),
+		(life points, player 2),
+		(status, player 1),
+		(status, player 2),
+		(
+			{Place}, (if underlay, push to a stack, else, use underlays on stack)
+			(card id),
+			{FieldPosition},
+			Face-down :bool,
+			Defense :bool,
+			Counter :int,
+			originalOwner :bool, (true = player 1)
+			isKnown :bool,
+			{Card} if isKnown
+		)*
+If some cards in a row have 'underlay[12]' as places, they are used as underlays
+on the following card, in top-to-bottom order.
+
+
+Outgoing:
+
++ Connect10, Username, {LoginToken}, 32-byte random hex
+
++ Heartbeat -> "Heartbeat" event returned (used for testing disconnects)
+
++ Load duel room -> "Load duel room" event returned (joining/messaging can happen in between)
+
++ Add friend, Name
+
++ Delete friend, Name
+
+* Get deck data -> "Get deck data" event returned
+
++ Global message, Message
+
+* Private message, Receiver, Message
+
++ Watch duel, Mode, Title, Token, Password
+
+* Join duel, Mode, Deck, Title, Token, Password
+
++ Watch message, Message
+
+
+With duel prefix:
+
+* Life points, delta
+
+* Close view
+
+* Counter, From Card ID (or ""), To Card ID (or "")
+
+
+Incoming:
+
++ Connected, {ModStatus}
+
++ Rejected -> Can't connect for whatever reason (incorrect username/password or wrong protocol, usually)
+
++ Already logged in
+
++ Banned
+
++ Over limit
+
++ Heartbeat
+
++ Global message, Name, Message, {ModStatus} -> message in global chat
+
++ Load duel room, Selected Deck, (Deck name, {DeckLegality})*
+
++ Add duels, ({DuelMode}, {MatchMode},{UserTitle}, {Rating}, Duel note, Has password :bool, Allow watch :bool, {DuelListToken})*
+
++ Add watches = same format as 'Add duels', see matchmaking.js for details
+
++ Remove duels, ({DuelMode}, {UserTitle}, {DuelListToken})*
+
++ Remove watches = like 'Remove duels'
+
++ Timed out -> socket 'close' will come shortly
+
++ Online users, (Name, {ModStatus})*
+
++ Offline users, Name*
+
++ Chat unlock -> You can now chat again! (The chat is locked on start and after sending messages.)
+
++ Friends, Name*
+
++ Add friend, Name
+
++ Delete friend, Name
+
++ Chat error [, Reason] -> E.g. "Invalid request" which happens on Unicode... Also unlocks the chat, unless the reason is "Quick chat" (= chatting when locked, presumably).
+
++ Async error [, Reason] -> E.g. "<user> is not your friend".
+
++ Error [, Reason]
+
+* Private message, From, To, Message, {ModStatus}
+
+* Leave duel, Reason [, Alternative Duel Offer Message]
+
++ Watch duel, {DuelState}, {MatchMode}, (Name, {Avatar}, Back, Color1, Color2, Rating, Reputation, Has donated: bool)*2, {WatcherListStr}, Duel log string, {OptWatchArgs}
+
++ Turn pick, Username -> That user goes first
+
++ Duel start, (Cards in pile, Start of pile index)x4 (= deck1, extra1, deck2, extra2, in order) [, {Card}x(5 or 6, depending on if you start) = values of the deck's first cards, not sent in watch mode]
+
++ Add watcher, Username, {ModStatus}
+
++ Watch message, Username, Message, {ModStatus}
+
++ Remove watcher, Username
+
++ Player quit, Username
+
+* Win (player 0 wins)
+
+* Lose (player 1 wins)
+
+* Call admin, complaint about?
+
+* Go to siding, ? (e.g. "0-1-0")
+
+* Go to turn pick
+
+* Go to rock-paper-scissors
+
+* Rock-paper-scissors, Choice A, Choice B
+
+* Done siding, Username
+
+* Offered rematch
+
+
+With Duel prefix:
+
++ Move, From :{Place}, Card ID (or blank for "top"), To :{Place}, {FieldPosition}, Face-down :bool, Defense :bool, (Message to be added to the chat, or blank), ("special" for special summons, else blank), {Card} (sometimes)
+
+* MoveNoBlockNoSound, MoveNoBlock, MoveNoBlockDone (presumably for moving several cards at the same time - Done is the end signal and does block)
+
++ Reveal and move (like move)
+
++ Overlay, From :{Place}, Card ID, To :{Place}, Target ID, Defense :bool, {Card}
+
++ Hand shuffle, Which hand :{Place}, New base ID [, (Old card id)x#cards in hand (given if the hand shuffles is yours)]
+
++ Shuffle, Which deck :{Place}, New base ID
+
++ Phase, {Phase}, Username [, true if player draws a card [, {Card}]]
+
++ Life points, Username, Points
+
+* Card select
+
+* Counter, {Place}, From :{FieldPosition}, From counter value, To :{FieldPosition}, To counter value ("" for no from/to)
+
++ Attack, From :{Place}, Attacker id, Target id (or "" if direct attack)
+
++ Token, {Place}, Card ID, :{FieldPosition}
+
++ Remove, {Place}, Card ID
+
++ Die, From, Result
+
++ Coin, From, Result
+
++ Status[12], Status text ("" for no status)
+

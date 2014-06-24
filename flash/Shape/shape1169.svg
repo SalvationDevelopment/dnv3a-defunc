@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="350px" height="445px"
+xml:space="preserve">
+<g id="PathID_1195" transform="matrix(1, 0, 0, 1, 16, 96.75)">
+<radialGradient
+id="RadialGradID_471" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.185165, 0.106339, -0.135056, 0.235184, 140, 124)" spreadMethod ="pad" cx="0" cy="0" r="819.2" fx="0" fy="0" >
+<stop  offset="0.698039"  style="stop-color:#E8C3A9;stop-opacity:1" />
+<stop  offset="1"  style="stop-color:#A7755E;stop-opacity:1" />
+</radialGradient>
+<path style="fill:url(#RadialGradID_471) " d="M66.25 -57.2Q78.35 -57.2 87.3 -53.4Q96.05 -49 96.2 -42.75L96.2 -73.15Q96.2 -84 107.05 -91Q115.95 -96.1 130.65 -96.75Q144 -96.75 153.55 -92.9Q164.4 -87.8 164.4 -80.15L165.7 -38.75Q166.3 -47 174.6 -52.75Q182.9 -58.5 193.1 -57.85Q219.85 -56.6 220.5 -25.35L219.25 144.85Q228.15 155.05 240.25 139.75Q245.35 133.4 265.15 100.25Q281.7 72.2 293.8 60.7Q312.3 44.75 330.15 53.7Q344.8 69.65 303.4 164.6Q278.5 221.35 251.1 271.1Q238.35 295.3 214.15 316.35Q177.8 348.2 138.9 348.2Q99.4 348.2 81.55 345Q50.95 339.3 31.8 321.45Q-16 276.8 -16 134.65Q-16 9.7 3.75 -13.25Q10.8 -21.5 20.35 -17.05Q26.1 -14.5 35.65 -4.95L36.9 -38.75Q36.9 -47 46.5 -52.1Q54.75 -56.6 66.25 -57.2" />
+</g>
+<g id="PathID_1196" transform="matrix(1, 0, 0, 1, 16, 96.75)">
+<path style="fill:#000000;fill-opacity:1" d="M35 -14L35 186L25 186L25 -14L35 -14" />
+</g>
+<g id="PathID_1197" transform="matrix(1, 0, 0, 1, 16, 96.75)">
+<path style="fill:#000000;fill-opacity:1" d="M97 -56L97 144L87 144L87 -56L97 -56" />
+</g>
+<g id="PathID_1198" transform="matrix(1, 0, 0, 1, 16, 96.75)">
+<path style="fill:#000000;fill-opacity:1" d="M175 -54L175 146L165 146L165 -54L175 -54" />
+</g>
+</svg>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="15px" height="14px"
+xml:space="preserve">
+<g id="PathID_182" transform="matrix(1, 0, 0, 1, 0, 0)">
+<linearGradient
+id="LinearGradID_52" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0, -0.00831604, 0.00831604, 0, 6, 7.15)" spreadMethod ="pad" x1="-819.2" y1="0" x2="819.2" y2="0" >
+<stop  offset="0" style="stop-color:#99D7FE;stop-opacity:1" />
+<stop  offset="1" style="stop-color:#D9F0FE;stop-opacity:1" />
+</linearGradient>
+<path style="fill:url(#LinearGradID_52) " d="M1 13L1 1L14 1L14 13L1 13" />
+</g>
+<g id="PathID_183" transform="matrix(1, 0, 0, 1, 0, 0)">
+<linearGradient
+id="LinearGradID_53" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0, -0.00787354, 0.00787354, 0, 8.5, 6.45)" spreadMethod ="pad" x1="-819.2" y1="0" x2="819.2" y2="0" >
+<stop  offset="0" style="stop-color:#0075BF;stop-opacity:1" />
+<stop  offset="0.992157" style="stop-color:#009DFF;stop-opacity:1" />
+</linearGradient>
+<path style="fill:url(#LinearGradID_53) " d="M15 14L0 14L0 0L15 0L15 14M14 13L14 1L1 1L1 13L14 13" />
+</g>
+<g id="PathID_184" transform="matrix(1, 0, 0, 1, 0, 0)">
+<linearGradient
+id="LinearGradID_54" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0, -0.00408936, 0.00900269, 0, 6.45, 4.35)" spreadMethod ="pad" x1="-819.2" y1="0" x2="819.2" y2="0" >
+<stop  offset="0" style="stop-color:#EEEEEE;stop-opacity:0" />
+<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0.298039" />
+</linearGradient>
+<path style="fill:url(#LinearGradID_54) " d="M1.05 7.5L1.05 1L14.05 1L14.05 7.5L1.05 7.5" />
+</g>
+</svg>

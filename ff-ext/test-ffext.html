@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Dueling Network v3.a</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js" type="text/javascript"></script>
+<script>
+function randHex() {
+	var ret = '';
+	for (var i = 0; i < 32; ++i) {
+		ret += Math.floor(Math.random() * 16).toString(16);
+	}
+	return ret;
+}
+
+window.messages = [];
+var heartbeatTimer = null;
+
+function readSocketMessage(ar) {
+	messages.push(ar);
+	var ev = ar[0];
+	// if (ev === 'Offline users' || ev === 'Online users') return; // Quite annoying.
+	console.log('Read: ', ar);
+}
+
+function socketError(e) {
+	console.error('Socket error: ', e);
+	clearInterval(heartbeatTimer);
+}
+
+function start(user, token) {
+	var sock = DuelingNetworkCommunicator.openSocket(readSocketMessage, socketError);
+	window.sock = sock;
+	sock.send(['Connect6', user, token, randHex()]);
+	// setTimeout(function() {
+		// sock.send(['Heartbeat']);
+	// }, 1200);
+	heartbeatTimer = setInterval(function() {
+		sock.send(['Heartbeat']);
+	}, 30000);
+	// setTimeout(function() { sock.close(); }, 50000);
+}
+
+var connect = null;
+
+function openConnectPage(user, token) {
+	var page = document.getElementById('connectpage');
+	page.hidden = false;
+	connect = function() {
+		page.hidden = true;
+		start(user, token);
+	};
+}
+
+$(function() {
+	DuelingNetworkCommunicator.autologin(function(error, user, token, admin) {
+		if (error === null) {
+			console.log('Autologin: ', arguments);
+			openConnectPage(user, token);
+			// alert('Autologin succeeded: ' + user + ', ' + token + ', ' + admin + '\n\nPress OK to connect.');
+			// start(user, token);
+		}
+		else {
+			document.getElementById('loginpage').hidden = false;
+			document.getElementById('loginpage').querySelector('input[name=username]').focus();
+		}
+	});
+});
+function login(f) {
+	var user = f.username.value;
+	var pass = f.pwd.value;
+	var remember = f.remember.checked;
+	DuelingNetworkCommunicator.login(user, pass, remember, function(error, user, token, admin) {
+		if (error === null) {
+			document.getElementById('loginpage').hidden = true;
+			console.log('Login: ', arguments);
+			openConnectPage(user, token);
+			start(user, token);
+		}
+		else {
+			alert("Login unsuccessful: " + error);
+		}
+	});
+}
+</script>
+</head>
+<body>
+<div id="loginpage" hidden>
+	<form action="" onsubmit="login(this);">
+		<label>Username: <input type="text" name="username"></label>
+		<label>Password: <input type="password" name="pwd"></label>
+		<label><input type="checkbox" name="remember"> Remember me</label>
+		<input type="submit" value="Login!">
+	</form>
+</div>
+<div id="connectpage" hidden>
+	<input type="button" value="Connect!" onclick="connect();">
+</div>
+</body>
+</html>

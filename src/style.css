@@ -1,0 +1,719 @@
+
+/* === General === */
+
+html, body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+body {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	color: black;
+	font-family: 'Trebuchet MS',sans-serif;
+}
+#fullscreen {
+	display: table;
+	table-layout: fixed;
+	position: absolute;
+	top: 0px; left: 0px;
+	width: 100%; height: 100%;
+}
+#hiddentext {
+	position: absolute;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+#views {
+	display: table-cell;
+	vertical-align: top;
+	position: relative;
+	width: 100%; height: 100%;
+}
+
+.view {
+	position: relative;
+	display: none;
+}
+.view.active {
+	display: block;
+	width: 100%; height: 100%;
+	background-color: white;
+}
+
+.border-box {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+/* === Sidebar === */
+
+#sidebar {
+	display: none;
+	vertical-align: top;
+	width: 0%; height: 100%;
+	background-color: gray;
+}
+.sidebar-ui {
+	/* border-box */
+	height: 100%;
+	border-right: 1px solid black;
+	padding: 7px 7px 0 7px;
+}
+.sidebar-box {
+	/* border-box */
+	border: 2px solid black;
+	border-radius: 4px;
+	margin-bottom: 7px;
+	position: relative;
+}
+
+.sidebar-title {
+	/* border-box */
+	height: 22px;
+	padding-left: 2px;
+	border-radius: 2px;
+	background-color: blue;
+	overflow: hidden;
+}
+.sidebar-box.open > .sidebar-title {
+	border-bottom: 1px solid black;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+.sidebar-minimize-button, .sidebar-close-button {
+	background-image: url(img/unminimize.png);
+	float: right;
+	width: 16px;
+	height: 17px;
+	margin: 2px 1px 0 0;
+	cursor: pointer;
+}
+.sidebar-box.open .sidebar-minimize-button {
+	background-image: url(img/minimize.png);
+}
+.sidebar-close-button {
+	background-image: url(img/close.png);
+}
+
+.sidebar-content {
+	/* border-box */
+	display: none;
+}
+.sidebar-box.open > .sidebar-content {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	top: 22px;
+	width: 100%;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.sidebar-box-holder {
+	/* border-box */
+	height: 100%;
+	padding-bottom: 22px;
+	position: relative;
+}
+.sidebar-box-cont {
+	/* border-box */
+	height: 100%;
+	overflow: auto;
+}
+.sidebar-box-field {
+	/* border-box */
+	width: 100%;
+	position: absolute;
+	height: 22px;
+	border: 0 solid black;
+	border-top-width: 1px;
+	border-radius: 0 0 2px 2px;
+	background-color: #f5f5f5;
+}
+
+
+.chat .sidebar-box-cont {
+	padding: 2px;
+	font-size: 85%;
+}
+.chat-line {
+	word-wrap: break-word;
+}
+.chat-author {
+	font-weight: bold;
+}
+.chat-message > a { color: #000097; }
+.chat-message > a:visited { color: #300A97; }
+.chat-message > a:active { color: #0000D0; }
+
+.online-widget > div {
+	font-size: 85%;
+	padding: 0 0 0 2px;
+	overflow-x: hidden;
+}
+.online-widget > hr {
+	border: 0 solid black;
+	border-top-width: 1px;
+	margin: 1px 0 0;
+}
+.online-widget > h3 {
+	margin: 0;
+	padding: 0 0 0 1px;
+	font-size: 85%;
+}
+.online-widget .usercount {
+	margin-top: 1px;
+}
+
+.debug-widget .sidebar-box-cont {
+	font-size: 70%;
+}
+.debug-row {
+	white-space: nowrap;
+	overflow: hidden;
+}
+.debug-row.expand {
+	white-space: normal;
+	word-wrap: break-word;
+}
+.debug-ev {
+	font-weight: bold;
+}
+
+
+/* === Error view === */
+
+#error-holder {
+	position: absolute;
+	width: 100%;
+	top: 100px;
+	text-align: center;
+}
+
+#error-holder > h1 {
+	color: #FEA700;
+}
+
+
+/* === Login view === */
+
+#loginview {
+	background-color: gray;
+}
+
+#loginview > .midbox {
+	border: 1px solid black;
+	background-color: #cccccc;
+	margin: 0 auto;
+	width: 300px;
+	position: relative;
+	top: 200px;
+	text-align: center;
+	padding: 1px;
+}
+
+#loginview #loadingstatus {
+	margin-top: 1px;
+}
+#loginview #loadingstatus span {
+	position: relative;
+	top: -2px;
+	left: 3px;
+}
+
+#loginview label.row {
+	display: table-row;
+}
+#loginview label.row input {
+	display: table-cell;
+	margin: 2px;
+}
+#loginview label.row span {
+	display: table-cell;
+}
+
+
+/* === Matchmaking view === */
+
+#mm-header {
+	position: absolute;
+}
+
+#mm-header > h1 {
+	display: inline-block;
+	margin: 2px 11px 2px 7px;
+	font-size: 40px;
+	font-weight: normal;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px 1px black, 1px 0 black, 0 -1px black;
+}
+#mm-header > h1.selected {
+	font-weight: bold;
+	color: black;
+	text-shadow: 1px 1px 1px #ccc;
+}
+
+#mm-main {
+	/* border-box */
+	position: relative;
+	width: 100%;
+	height: 100%;
+	padding: 56px 267px 66px 3px;
+	/* The values of 277px / 66px make the spacing to footer and commands box
+	both equal to 27px: 267px - 240px = 66px - 39px = 27px. */
+}
+
+#mm-main-box {
+	/* border-box */
+	height: 100%;
+	border: 1px solid black;
+	position: relative;
+}
+
+#mm-side {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 0; /* set to 240px when visible */
+	bottom: 287px;
+	overflow: hidden;
+	padding-top: 56px;
+	/* 287px is 27px above the commands box, to use a common spacing everywhere. */
+}
+
+#mm-side-cont {
+	/* border-box */
+	height: 100%;
+	background-color: #e7e7e7;
+	border: 2px solid black;
+	border-radius: 4px 0 0 4px;
+}
+
+#mm-search {
+	display: none;
+	width: 207px; 
+	position: relative;
+	margin: 0 auto;
+	padding-top: 2px;
+}
+#mm-search-field > input {
+	display: block;
+	width: 205px;
+	border: 1px solid black;
+	margin: 2px 0 7px auto;
+	height: 23px;
+}
+#mm-search-rating, #mm-search-exp {
+	text-align: center;
+	margin-bottom: 10px;
+}
+#mm-search-rating > input, #mm-search-exp > input {
+	position: absolute;
+	border: 1px solid black;
+	width: 43px;
+	height: 21px;
+}
+#mm-search-rating > input:first-of-type { left: 0; }
+#mm-search-rating > input:last-of-type { right: 0; }
+#mm-search-exp > input:first-of-type { left: 0; }
+#mm-search-exp > input:last-of-type { right: 0; }
+
+#mm-search-exp > input {
+	border: 1px solid black;
+	width: 43px;
+	height: 21px;
+}
+
+.mm-tab {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	width: 100%;
+	overflow: auto;
+}
+
+.mm-tab.host {
+	padding-top: 40px;
+	font-size: 120%;
+	text-align: center;
+}
+
+.mm-table {
+	width: 100%;
+	table-layout: fixed;
+	white-space: nowrap;
+	border-collapse: collapse;
+	cursor: default;
+}
+
+.mm-table > thead {
+	text-align: left;
+}
+.mm-th-title {}
+.watch > .mm-th-note { width: 100px; }
+.mm-th-name { width: 25%; }
+.mm-th-note {}
+.mm-th-rating { width: 75px }
+.mm-th-icons { width: 24px; }
+
+/*
+.mm-table > tbody > tr {
+	border-top: 1px solid black;
+}
+*/
+
+.mm-table tr.selected {
+	background-color: lightblue;
+}
+.mm-table td {
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.mm-table td:nth-child(n+3) {
+	/* The rating and icons should always be displayed fully. */
+	overflow: visible;
+}
+.icon-nowatch {
+	background-image: url("img/nowatch.png");
+	background-position: 1px 2px;
+	background-repeat: no-repeat;
+}
+.icon-pwd {
+	background-image: url("img/key.png");
+	background-position: 3px 4px;
+	background-repeat: no-repeat;
+}
+.icon-pwd.icon-nowatch {
+	background-image: url("img/key-nowatch.png");
+	background-position: 4px 2px;
+	background-repeat: no-repeat;
+}
+
+#mm-tabs {
+	position: absolute;
+	margin: 0;
+	padding-left: 1px;
+}
+
+#mm-tabs > li {
+	display: inline-block;
+	border: 1px solid black;
+	border-width: 1px;
+	border-radius: 0 0 5px 5px;
+	margin-left: 4px;
+	padding: 1px 3px;
+	background-color: #F5F5F5;
+	white-space: nowrap;
+	vertical-align: bottom;
+	position: relative;
+	z-index: 2;
+	top: -1px;
+}
+
+#mm-tabs > li.selected {
+	font-weight: bold;
+	border-top-width: 0;
+	padding-top: 2px;
+	background-color: white;
+}
+
+#mm-footer {
+	position: absolute;
+	z-index: 3;
+	bottom: 0;
+	left: 0;
+	right: 238px;
+	height: 35px;
+	border: solid 0 black;
+	border-width: 2px 0;
+	background-color: lightgray;
+	/* Total height 39px. The distance from the right is 2px less than the
+	width of the commands box, to overlap it slightly. */
+}
+
+#mm-footer-cont {
+	padding: 8px 0 0 4px;
+}
+
+#mm-deck {
+	position: absolute;
+	bottom: 5px;
+	margin-left: 3px;
+}
+
+
+/* === Duel view === */
+
+.card {
+	position: absolute;
+	pointer-events: none;
+}
+.card-rotator, .card-flipper, .card-front, .card-back {
+	height: 100%;
+	width: 100%;
+}
+.card-flipper {
+	/* Reset the property used for animation. */
+	text-indent: 0;
+
+	pointer-events: auto;
+}
+.card-frame {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	border-radius: 2px;
+}
+.card-image {
+	position: absolute;
+	top: 22%;
+	left: 14.5%;
+	width: 71%;
+}
+.card-back {
+	display: none;
+}
+.duel-attackline {
+	position: absolute;
+	z-index: 400;
+	-moz-transform-origin: left center;
+	-webkit-transform-origin: left center;
+	-ms-transform-origin: left center;
+	-o-transform-origin: left center;
+	transform-origin: left center;
+	height: 16px;
+}
+
+#duel-ui {
+	position: absolute;
+	top: 0;
+	left: 25px;
+	bottom: 0;
+	right: 265px;
+}
+#duel-cardholder {
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+	pointer-events: none;
+	overflow: hidden;
+}
+
+#duel-detail {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 260px;
+	width: 240px;
+}
+#duel-detail-name-holder {
+	position: absolute;
+	top: 64px;
+	width: 100%;
+}
+#duel-detail-name {
+	position: absolute;
+	bottom: 0;
+	left: 3px;
+	right: 3px;
+	max-height: 65px;
+	font: small-caps 18px Helvetica, Arial, sans-serif;
+}
+#duel-detail-nonname {
+	position: absolute;
+	width: 100%;
+	top: 67px;
+	bottom: 0;
+}
+#duel-detail-info {
+	position: absolute;
+	left: 114px;
+	top: 2px;
+	width: 124px;
+	font-size: 14px;
+	white-space: pre-line;
+}
+.duel-sticon {
+	position: relative;
+	margin-top: -20px;
+	top: 4px;
+	left: 4px;
+	width: 23px;
+	height: 23px;
+}
+#duel-detail-text {
+	position: absolute;
+	top: 150px;
+	bottom: 0;
+	right: 0;
+	padding-right: 2px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	white-space: pre-line;
+	font-size: 14px;
+}
+
+.duel-log-line {
+	border-bottom: 1px solid #666;
+	font-weight: bold;
+}
+.duel-log-line:last-child {
+	border-bottom-style: none;
+}
+.watch-count {
+	position: relative;
+	top: -1px;
+	font: 87% Arial;
+}
+
+#duel-tablecont {
+	position: absolute;
+	top: 67px;
+	bottom: 19%;
+	width: 100%;
+}
+#duel-table {
+	width: 100%;
+	height: 100%;
+	border-spacing: 1px;
+}
+#duel-table .pl0 {
+	border: 1px solid red;
+}
+#duel-table .pl1 {
+	border: 1px solid blue;
+}
+.duel-edge, .duel-cell, #duel-mid {
+	height: 20%;
+}
+.duel-edge {
+	background-color: rgba(0, 0, 0, 0.2);
+	width: 11%;
+}
+.duel-cell {
+	width: 15%;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+#duel-mid {
+	vertical-align: top;
+}
+#duel-mid-wrapper {
+	position: relative;
+	height: 100%;
+}
+.duel-player.p0 {
+	float: left;
+	text-align: left;
+}
+.duel-player.p1 {
+	float: right;
+	text-align: right;
+}
+.duel-player .name {
+	margin: 0 0 1px;
+}
+.duel-player.p0 .name { color: #C00000; }
+.duel-player.p1 .name { color: #00008B; }
+.duel-player .lp {
+	position: relative;
+	display: inline-block;
+	border: 1px solid gray;
+	width: 110px;
+}
+.duel-player .lp-bg {
+	position: absolute;
+	height: 100%;
+	background-color: lightgreen;
+}
+.duel-player .lp-cont {
+	position: relative;
+	margin: 0 1px;
+}
+.duel-player.p1 .lp-bg { right: 0; }
+.duel-status {
+	position: absolute;
+	display: none;
+	bottom: 0;
+	padding: 1px 2px;
+	margin: 1px;
+	font-size: 14px;
+	box-shadow: 0 0 1px #555;
+}
+.duel-player.p0 .duel-status { left: 0; }
+.duel-player.p1 .duel-status { right: 0; }
+#duel-indicators {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+}
+#duel-turn {
+	font-size: 12px;
+	margin: 3px 0 1px;
+}
+#duel-phase {
+	color: #DEAA20;
+	font: 24px serif;
+}
+#duel-next {
+	display: none;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+
+/* === Commands box === */
+
+#commands {
+	/* border-box */
+	display: none;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	padding: 4px 1px 0 6px;
+	height: 260px;
+	width: 240px;
+	overflow: auto;
+	border: 2px solid black;
+	border-radius: 4px 0 0 0;
+	background-color: lightgray;
+}
+
+#commands > h2 {
+	margin: 4px 1px 6px;
+	font-size: 130%;
+}
+
+#commands > div > .key {
+	font-weight: bold;
+}
+
+
+/* === Small screen sizes === */
+
+@media (max-width:1173px), (max-height: 660px) {
+#duel-detail-nonname {
+	top: 27px;
+}
+#duel-detail-name-holder {
+	top: 2px;
+}
+#duel-detail-name {
+	bottom: auto;
+	max-height: none;
+	white-space: pre;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+}
+
+@media (max-width:500px), (max-height: 400px) {
+	/* TODO: Put something here? */
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="600px" height="300px"
+xml:space="preserve">
+<g id="PathID_468" transform="matrix(1, 0, 0, 1, 0, 0)">
+<radialGradient
+id="RadialGradID_238" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.123779, 0, 0, 0.247543, 500, 150)" spreadMethod ="reflect" cx="0" cy="0" r="819.2" fx="0" fy="0" >
+<stop  offset="0.517647"  style="stop-color:#3D3D3D;stop-opacity:1" />
+<stop  offset="1"  style="stop-color:#C5C5C5;stop-opacity:1" />
+</radialGradient>
+<path style="fill:url(#RadialGradID_238) " d="M529.7 291.5Q534.85 281.2 539.15 270.1Q552.2 236.1 556.65 195L557.25 189Q559 170.2 559 150Q559 132.45 557.7 116L557.05 109L556.75 106Q552 61.4 537.2 25.1Q533.7 16.6 529.7 8.6L525.15 0L566.15 0L570.7 8.6Q574.7 16.6 578.2 25.1Q593 61.4 597.75 106L598.05 109L598.7 116Q600 132.45 600 150Q600 170.2 598.25 189L597.65 195Q593.2 236.1 580.15 270.1Q575.85 281.2 570.7 291.5L566.2 300L525.2 300L529.7 291.5" />
+<path style="fill:#000000;fill-opacity:0.8" d="M70.3 291.5Q65.15 281.2 60.85 270.1Q41 218.3 41 150Q41 132.45 42.35 116Q46.35 65.45 62.8 25.1Q66.3 16.6 70.3 8.6L74.85 0L525.15 0L529.7 8.6Q533.7 16.6 537.2 25.1Q552 61.4 556.75 106L557.05 109L557.7 116Q559 132.45 559 150Q559 170.2 557.25 189L556.65 195Q552.2 236.1 539.15 270.1Q534.85 281.2 529.7 291.5L525.2 300L74.8 300L70.3 291.5" />
+<radialGradient
+id="RadialGradID_239" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-0.123779, 0, 0, 0.247543, 100, 150)" spreadMethod ="reflect" cx="0" cy="0" r="819.2" fx="0" fy="0" >
+<stop  offset="0.517647"  style="stop-color:#3D3D3D;stop-opacity:1" />
+<stop  offset="1"  style="stop-color:#C5C5C5;stop-opacity:1" />
+</radialGradient>
+<path style="fill:url(#RadialGradID_239) " d="M74.8 300L33.8 300L29.3 291.5Q24.15 281.2 19.85 270.1Q0 218.3 0 150Q0 132.45 1.35 116Q5.35 65.45 21.8 25.1Q25.3 16.6 29.3 8.6L33.85 0L74.85 0L70.3 8.6Q66.3 16.6 62.8 25.1Q46.35 65.45 42.35 116Q41 132.45 41 150Q41 218.3 60.85 270.1Q65.15 281.2 70.3 291.5L74.8 300" />
+</g>
+</svg>

@@ -1,0 +1,95 @@
+>> Load duel room
+<< Load duel room,0,BLUEEYES,true
+>> Join duel,tu,BLUEEYES,simonlindholm3,0e48b3c81e1b4f6d9e4e4be21e17cdc3,blah
+<< Join duel
+<< Rock-paper-scissors,simonlindholm2,0/1.jpg,,255,255,100,0,false,simonlindholm3,0/1.jpg,,255,255,100,0,false,
+>> Unsubscribe
+>> Rock-paper-scissors,Paper
+<< Rock-paper-scissors,Scissors
+<< Add watcher,simonlindholm,0
+<< Turn pick,simonlindholm3
+<< Duel start,44,40,0,0,40,0,0,0,3517,88264978,Red-Eyes Darkness Metal Dragon,2323.scf,Red-Eyes Darkness Metal Dragon,effect,Dragon/Effect,dark,You can remove from play 1 Dragon-Type monster you control to Special Summon this card. Once per turn\, during your Main Phase\, you can Special Summon 1 Dragon-Type monster\, except "Red-Eyes Darkness Metal Dragon"\, from your hand or Graveyard.,2800,2400,10,3,2788,25344,1cf88626ab9891d7c92210959298848c,1857,43793530,Giga Gagagigo,1274.scf,Giga Gagagigo,normal,Reptile,water,In order to fight tremendous evil\, he gained formidable power through body reconstruction\, but lost his heart and his redemption.,2450,1500,5,3,31137,22080,c11ef232ae77f020ecc4e4ad7e220577,4235,73628505,Terraforming,2766.scf,Terraforming,spell,normal,,Add 1 Field Spell Card from your Deck to your hand.,?,?,,3,55775,9600,8877f2568403e8cf0c88a11b1c2f2560,17,00295517,A Legendary Ocean,16.scf,Umi,spell,field,,This card's name is treated as "Umi". Downgrade all WATER monsters in both player's hands and on the field by 1 Level. Increases the ATK and DEF of all WATER monsters by 200 points.,?,?,,3,68944,16368,afab0be5d6ce332e697a3b14b73fadb7,1075,02732323,Decoy Dragon,781.scf,Decoy Dragon,effect,Dragon/Effect,fire,When this card is selected as an attack target by your opponent's monster\, select 1 Level 7 or higher Dragon-Type monster from your Graveyard\, Special Summon it and switch the attack target to that monster.,300,200,2,3,87062,17840,e44539edfae0e5c56790f77c73614913
+<< Duel,Move,hand2,1,field2,8,false,false,,,74,98719226,Alien Warrior,55.scf,Alien Warrior,effect,Reptile/Effect,earth,When this card is destroyed by battle and sent to the Graveyard\, place 2 A-Counters on the monster that destroyed it. (If a monster with an A-Counter battles an "Alien" monster\, it loses 300 ATK and DEF for each A-Counter during damage calculation only.),1800,1000,4,3,128074,21648,9b966068a4e07bd9c88a87e7b6d35229
+<< Duel,Phase,et,simonlindholm3
+>> Duel,Phase,dp,true
+<< Duel,Phase,dp,simonlindholm2,3518,67300516,Red-Eyes Wyvern,3344.scf,Red-Eyes Wyvern,effect,Dragon/Effect,wind,During your End Phase\, if you did not Normal Summon or Set a monster this turn\, you can remove from play this card from your Graveyard to Special Summon 1 "Red-Eyes" monster from your Graveyard\, except "Red-Eyes B. Chick".,1800,1600,4,3,224017,15536,48050aeb2a3b0c333ef6dc094471005a
+>> Duel,Normal Summon,45
+<< Duel,Move,hand1,45,field1,8,false,false,,
+>> Duel,Hand Activate,43
+<< Duel,Move,hand1,43,field1,5,false,false,,
+>> Duel,Hand Set,42
+<< Duel,Move,hand1,42,field1,2,true,false,,
+>> Duel,Hand Special Summon ATK,41
+<< Duel,Move,hand1,41,field1,9,false,false,,special
+>> Duel,Hand Set,44
+<< Duel,Move,hand1,44,field1,7,true,true,,
+>> Duel,Hand To Graveyard,40
+<< Duel,Move,hand1,40,grave1,,false,false,,
+>> Duel,Field To Hand,42
+<< Duel,Move,field1,42,hand1,,false,false,,
+>> Duel,Phase,m1
+<< Duel,Phase,m1,simonlindholm2
+>> Duel,Phase,bp
+<< Duel,Phase,bp,simonlindholm2
+>> Duel,Attack,41,1
+<< Duel,Attack,field1,41,1
+>> Duel,Phase,et
+<< Duel,Phase,et,simonlindholm2
+<< Duel,Phase,dp,simonlindholm3,true
+<< Watch message,simonlindholm3,Hello.,0
+<< [23 bytes missing in capture file]Online users,psychro,0
+<< Duel,Move,field2,1,field2,8,false,true,,
+<< Duel,Reveal and move,hand2,5,hand2,,true,false,,,251,20277860,Armored Zombie,177.scf,Armored Zombie,normal,Zombie,dark,This warrior blindly swings a deadly blade with devastating force.,1500,0,3,3,242441,14928,1d36e900ba72b0b2f672d5d6a9c3daae
+<< Duel,Hand shuffle,hand2,84
+<< Duel,Move,hand2,86,deck2,,true,false,,
+<< Duel,Move,hand2,85,rfg2,,false,false,,,1255,66672569,Dragon Zombie,917.scf,Dragon Zombie,normal,Zombie,dark,A dragon revived by sorcery. Its breath is highly corrosive.,1600,0,3,3,278900,18592,35731131d584d6ad4075b0507d6c43be
+<< Duel,Move,hand2,84,field2,9,false,false,,,296,75081613,Aztekipede\, the Worm Warrior,203.scf,Aztekipede\, the Worm Warrior,effect,Insect/Effect,earth,This card cannot be Normal Summoned or Set. This card cannot be Special Summoned except by removing from play 1 Insect-Type monster from your Graveyard. When this card inflicts Battle Damage to your opponent\, send the top card of their Deck to the Graveyard.,1900,400,4,3,203025,20512,7d44914368fb48d803167e0e03756a7f
+<< Duel,Life points,simonlindholm3,7800
+<< Duel,Token,field2,90,7
+<< Duel,Coin,simonlindholm3,heads
+<< Duel,Die,simonlindholm3,2
+<< Duel,Die,simonlindholm3,5
+<< Duel,Die,simonlindholm3,1
+<< Duel,Phase,ep,simonlindholm3
+<< Duel,Move,field2,84,field2,9,false,true,,
+<< Duel,Move,field2,84,field1,10,false,true,,
+<< Duel,Phase,et,simonlindholm3
+>> Duel,Phase,dp,true
+<< Duel,Phase,dp,simonlindholm2,2081,74519184,Hand Destruction,1436.scf,Hand Destruction,spell,quickplay,,Each player sends 2 cards from their hand to the Graveyard and draws 2 cards.,?,?,,3,260516,16848,c9d2b1bf2dd2bc669cc6cacfe2cbe584
+>> Duel,Hand Activate,46
+<< Duel,Move,hand1,46,field1,2,false,false,,
+>> Duel,View Deck,47
+<< Duel,Status1,Viewing Deck,4944,83764718,Monster Reborn,1970.scf,Monster Reborn,spell,normal,,Special Summon 1 monster from either player's Graveyard to your side of the field.,?,?,,1,299531,17712,609a0c6a099ab8cfbe2ed15e04904298,2737,55343236,Malefic Red-Eyes B. Dragon,4538.scf,Malefic Red-Eyes B. Dragon,effect,Dragon/Effect,dark,This card cannot be Normal Summoned or Set. This card can only be Special Summoned\, by removing from play 1 "Red-Eyes B. Dragon" from your Deck. There can only be 1 face-up "Malefic" monster on the field. Other monsters you control cannot declare an attack. If there is no face-up Field Spell Card on the field\, destroy this card.,2400,2000,7,3,335109,18144,4dd400b0b7850e247a918284a7d7adb0,3516,96561011,Red-Eyes Darkness Dragon,2322.scf,Red-Eyes Darkness Dragon,effect,Dragon/Effect,dark,This card cannot be Normal Summoned or Set. This card cannot be Special Summoned except by Tributing 1 "Red-Eyes B. Dragon" on your side of the field. Increase the ATK of this card by 300 points for each Dragon-Type monster in your Graveyard.,2400,2000,9,3,372090,16624,e3ccaba3fb25d699d32a047f68fefed1,4436,38120068,Trade-In,2917.scf,Trade-In,spell,normal,,Discard 1 Level 8 monster. Draw 2 cards.,?,?,,3,412054,20416,ed93722f44829d40e61a204c766cd663,4436,38120068,Trade-In,2917.scf,Trade-In,spell,normal,,Discard 1 Level 8 monster. Draw 2 cards.,?,?,,3,412054,20416,ed93722f44829d40e61a204c766cd663,17,00295517,A Legendary Ocean,16.scf,Umi,spell,field,,This card's name is treated as "Umi". Downgrade all WATER monsters in both player's hands and on the field by 1 Level. Increases the ATK and DEF of all WATER monsters by 200 points.,?,?,,3,68944,16368,afab0be5d6ce332e697a3b14b73fadb7,2731,09433350,Malefic Blue-Eyes White Dragon,2731.jpg,Malefic Blue-Eyes White Dragon,effect,Dragon/Effect,dark,This card cannot be Normal Summoned or Set. This card can only be Special Summoned by removing from play 1 "Blue-Eyes White Dragon" from your Deck. There can only be 1 face-up "Malefic" monster on the field. Other monsters you control cannot declare an attack. If there is no face-up Field Spell Card on the field\, destroy this card.,3000,2500,8,3,492902,16976,99d51586e55aac8db2c67ada0beb5575,2081,74519184,Hand Destruction,1436.scf,Hand Destruction,spell,quickplay,,Each player sends 2 cards from their hand to the Graveyard and draws 2 cards.,?,?,,3,260516,16848,c9d2b1bf2dd2bc669cc6cacfe2cbe584,4917,89631139,Blue-Eyes White Dragon,333.scf,Blue-Eyes White Dragon,normal,Dragon,light,This legendary dragon is a powerful engine of destruction. Virtually invincible\, very few have faced this awesome creature and lived to tell the tale.,3000,2500,8,3,553857,23248,ca6ee595aa62037802a5df232a294a28,168,10667321,Ancient Rules,114.scf,Ancient Rules,spell,normal,,Special Summon 1 Level 5 or higher Normal Monster from your hand.,?,?,,3,598935,14816,17800c4013188743af075582c930291f,3518,67300516,Red-Eyes Wyvern,3344.scf,Red-Eyes Wyvern,effect,Dragon/Effect,wind,During your End Phase\, if you did not Normal Summon or Set a monster this turn\, you can remove from play this card from your Graveyard to Special Summon 1 "Red-Eyes" monster from your Graveyard\, except "Red-Eyes B. Chick".,1800,1600,4,3,224017,15536,48050aeb2a3b0c333ef6dc094471005a,1711,77565204,Future Fusion,1216.scf,Future Fusion,spell,continuous,,Send\, from your Deck to the Graveyard\, Fusion Material Monsters that are listed on a Fusion Monster Card\, and select that 1 Fusion Monster from your Extra Deck. Special Summon a Fusion Monster from your Extra Deck with the same name as the selected Fusion Monster during your 2nd Standby Phase after this card's activation. (This Special Summon is treated as a Fusion Summon.) When this card is removed from the field\, destroy the monster. When the monster is destroyed\, destroy this card.,?,?,,1,651606,21280,96a19c0485864731ecb0b04cf97b33d7,4916,89631139,Blue-Eyes White Dragon,332.scf,Blue-Eyes White Dragon,normal,Dragon,light,This legendary dragon is a powerful engine of destruction. Virtually invincible\, very few have faced this awesome creature and lived to tell the tale.,3000,2500,8,3,693369,22304,d97aaba4c559443ca6cf54f956647078,4947,74677422,Red-Eyes B. Dragon,2319.scf,Red-Eyes B. Dragon,normal,Dragon,dark,A ferocious dragon with a deadly attack.,2400,2000,7,3,737259,17248,f6c59c781971b8d2173e3e37dbbea254,168,10667321,Ancient Rules,114.scf,Ancient Rules,spell,normal,,Special Summon 1 Level 5 or higher Normal Monster from your hand.,?,?,,3,598935,14816,17800c4013188743af075582c930291f,2571,37721209,Levia-Dragon - Daedalus,1717.scf,Levia-Dragon - Daedalus,effect,Sea Serpent/Effect,water,Send "Umi" on your side of the field to the Graveyard to destroy all cards on the field except this card.,2600,1500,7,3,798897,21536,eae194579c79a62b012e41656032c0fd,2737,55343236,Malefic Red-Eyes B. Dragon,4538.scf,Malefic Red-Eyes B. Dragon,effect,Dragon/Effect,dark,This card cannot be Normal Summoned or Set. This card can only be Special Summoned\, by removing from play 1 "Red-Eyes B. Dragon" from your Deck. There can only be 1 face-up "Malefic" monster on the field. Other monsters you control cannot declare an attack. If there is no face-up Field Spell Card on the field\, destroy this card.,2400,2000,7,3,335109,18144,4dd400b0b7850e247a918284a7d7adb0,2731,09433350,Malefic Blue-Eyes White Dragon,2731.jpg,Malefic Blue-Eyes White Dragon,effect,Dragon/Effect,dark,This card cannot be Normal Summoned or Set. This card can only be Special Summoned by removing from play 1 "Blue-Eyes White Dragon" from your Deck. There can only be 1 face-up "Malefic" monster on the field. Other monsters you control cannot declare an attack. If there is no face-up Field Spell Card on the field\, destroy this card.,3000,2500,8,3,492902,16976,99d51586e55aac8db2c67ada0beb5575,1075,02732323,Decoy Dragon,781.scf,Decoy Dragon,effect,Dragon/Effect,fire,When this card is selected as an attack target by your opponent's monster\, select 1 Level 7 or higher Dragon-Type monster from your Graveyard\, Special Summon it and switch the attack target to that monster.,300,200,2,3,87062,17840,e44539edfae0e5c56790f77c73614913,3518,67300516,Red-Eyes Wyvern,3344.scf,Red-Eyes Wyvern,effect,Dragon/Effect,wind,During your End Phase\, if you did not Normal Summon or Set a monster this turn\, you can remove from play this card from your Graveyard to Special Summon 1 "Red-Eyes" monster from your Graveyard\, except "Red-Eyes B. Chick".,1800,1600,4,3,224017,15536,48050aeb2a3b0c333ef6dc094471005a,1857,43793530,Giga Gagagigo,1274.scf,Giga Gagagigo,normal,Reptile,water,In order to fight tremendous evil\, he gained formidable power through body reconstruction\, but lost his heart and his redemption.,2450,1500,5,3,31137,22080,c11ef232ae77f020ecc4e4ad7e220577,2571,37721209,Levia-Dragon - Daedalus,1717.scf,Levia-Dragon - Daedalus,effect,Sea Serpent/Effect,water,Send "Umi" on your side of the field to the Graveyard to destroy all cards on the field except this card.,2600,1500,7,3,798897,21536,eae194579c79a62b012e41656032c0fd,612,72892473,Card Destruction,409.scf,Card Destruction,spell,normal,,Each player discards their entire hand and draws the same number of cards they discarded.,?,?,,1,954756,11952,ff79476d859b2378d3b7a704031394b9,2731,09433350,Malefic Blue-Eyes White Dragon,2731.jpg,Malefic Blue-Eyes White Dragon,effect,Dragon/Effect,dark,This card cannot be Normal Summoned or Set. This card can only be Special Summoned by removing from play 1 "Blue-Eyes White Dragon" from your Deck. There can only be 1 face-up "Malefic" monster on the field. Other monsters you control cannot declare an attack. If there is no face-up Field Spell Card on the field\, destroy this card.,3000,2500,8,3,492902,16976,99d51586e55aac8db2c67ada0beb5575,2081,74519184,Hand Destruction,1436.scf,Hand Destruction,spell,quickplay,,Each player sends 2 cards from their hand to the Graveyard and draws 2 cards.,?,?,,3,260516,16848,c9d2b1bf2dd2bc669cc6cacfe2cbe584,1075,02732323,Decoy Dragon,781.scf,Decoy Dragon,effect,Dragon/Effect,fire,When this card is selected as an attack target by your opponent's monster\, select 1 Level 7 or higher Dragon-Type monster from your Graveyard\, Special Summon it and switch the attack target to that monster.,300,200,2,3,87062,17840,e44539edfae0e5c56790f77c73614913,2737,55343236,Malefic Red-Eyes B. Dragon,4538.scf,Malefic Red-Eyes B. Dragon,effect,Dragon/Effect,dark,This card cannot be Normal Summoned or Set. This card can only be Special Summoned\, by removing from play 1 "Red-Eyes B. Dragon" from your Deck. There can only be 1 face-up "Malefic" monster on the field. Other monsters you control cannot declare an attack. If there is no face-up Field Spell Card on the field\, destroy this card.,2400,2000,7,3,335109,18144,4dd400b0b7850e247a918284a7d7adb0,4946,74677422,Red-Eyes B. Dragon,2318.scf,Red-Eyes B. Dragon,normal,Dragon,dark,A ferocious dragon with a deadly attack.,2400,2000,7,3,1061025,16864,78c812ce4536151ed0934d926c890c05,3517,88264978,Red-Eyes Darkness Metal Dragon,2323.scf,Red-Eyes Darkness Metal Dragon,effect,Dragon/Effect,dark,You can remove from play 1 Dragon-Type monster you control to Special Summon this card. Once per turn\, during your Main Phase\, you can Special Summon 1 Dragon-Type monster\, except "Red-Eyes Darkness Metal Dragon"\, from your hand or Graveyard.,2800,2400,10,3,2788,25344,1cf88626ab9891d7c92210959298848c,513,89631139,Blue-Eyes White Dragon,331.scf,Blue-Eyes White Dragon,normal,Dragon,light,This legendary dragon is a powerful engine of destruction. Virtually invincible\, very few have faced this awesome creature and lived to tell the tale.,3000,2500,8,3,1124196,15120,3060a52acd9502017bc20cb14dad49e9,4945,74677422,Red-Eyes B. Dragon,2317.scf,Red-Eyes B. Dragon,normal,Dragon,dark,A ferocious dragon with a deadly attack.,2400,2000,7,3,1156649,14336,7f9d2c00d8bf1bda12b033b5552335a5,168,10667321,Ancient Rules,114.scf,Ancient Rules,spell,normal,,Special Summon 1 Level 5 or higher Normal Monster from your hand.,?,?,,3,598935,14816,17800c4013188743af075582c930291f,1857,43793530,Giga Gagagigo,1274.scf,Giga Gagagigo,normal,Reptile,water,In order to fight tremendous evil\, he gained formidable power through body reconstruction\, but lost his heart and his redemption.,2450,1500,5,3,31137,22080,c11ef232ae77f020ecc4e4ad7e220577,4436,38120068,Trade-In,2917.scf,Trade-In,spell,normal,,Discard 1 Level 8 monster. Draw 2 cards.,?,?,,3,412054,20416,ed93722f44829d40e61a204c766cd663,3517,88264978,Red-Eyes Darkness Metal Dragon,2323.scf,Red-Eyes Darkness Metal Dragon,effect,Dragon/Effect,dark,You can remove from play 1 Dragon-Type monster you control to Special Summon this card. Once per turn\, during your Main Phase\, you can Special Summon 1 Dragon-Type monster\, except "Red-Eyes Darkness Metal Dragon"\, from your hand or Graveyard.,2800,2400,10,3,2788,25344,1cf88626ab9891d7c92210959298848c,17,00295517,A Legendary Ocean,16.scf,Umi,spell,field,,This card's name is treated as "Umi". Downgrade all WATER monsters in both player's hands and on the field by 1 Level. Increases the ATK and DEF of all WATER monsters by 200 points.,?,?,,3,68944,16368,afab0be5d6ce332e697a3b14b73fadb7,4235,73628505,Terraforming,2766.scf,Terraforming,spell,normal,,Add 1 Field Spell Card from your Deck to your hand.,?,?,,3,55775,9600,8877f2568403e8cf0c88a11b1c2f2560
+>> Duel,Deck Special Summon ATK,76
+<< Duel,Move,deck1,76,field1,6,false,false,,special
+>> Duel,Deck Remove from Play Face-Down,77
+<< Duel,Move,deck1,77,rfg1,,true,false,,
+>> Duel,Deck Remove from Play,78
+<< Duel,Move,deck1,78,rfg1,,false,false,,
+>> Duel,Close view
+<< Duel,Status1,
+<< Duel,Shuffle,deck1,91
+>> Duel,Mill,91
+<< Duel,Move,deck1,,grave1,,false,false,,,1857,43793530,Giga Gagagigo,1274.scf,Giga Gagagigo,normal,Reptile,water,In order to fight tremendous evil\, he gained formidable power through body reconstruction\, but lost his heart and his redemption.,2450,1500,5,3,31137,22080,c11ef232ae77f020ecc4e4ad7e220577
+<< Watch message,simonlindholm,Hello.,0
+>> Duel,Hand shuffle
+>> Duel,Hand shuffle
+>> Duel,Field To Hand,46
+<< Duel,Move,field1,46,hand1,,false,false,,
+<< Duel,Hand shuffle,hand1,125,42,46
+>> Duel,Hand shuffle
+<< Duel,Hand shuffle,hand1,127,126,125
+>> Duel,Show hand
+<< Duel,Status2,Viewing Opponent's Hand
+<< Duel,Status2,
+<< Duel,Hand shuffle,hand1,129,128,127
+<< Duel,Status2,Viewing Opponent's Banished
+<< Duel,Status2,
+>> Duel,View RFG2
+<< Duel,Status1,Viewing Opponent's Banished
+>> Duel,Close view
+<< Duel,Status1,
+<< Duel,Life points,simonlindholm3,8000
+<< Player quit,simonlindholm3
+>> Load duel room
+<< Load duel room,0,BLUEEYES,true

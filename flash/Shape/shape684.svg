@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="700px" height="700px"
+xml:space="preserve">
+<g id="PathID_711" transform="matrix(1, 0, 0, 1, 0, 0)">
+<path style="fill:#000000;fill-opacity:1" d="M700 350Q700 494.95 597.45 597.45Q494.95 700 350 700Q205 700 102.45 597.45Q0 494.95 0 350Q0 205.05 102.45 102.5Q205 0 350 0Q494.95 0 597.45 102.5Q700 205.05 700 350" />
+</g>
+</svg>

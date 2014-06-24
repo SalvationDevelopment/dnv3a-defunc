@@ -1,0 +1,38 @@
+POST /Dueling_Network/login.do HTTP/1.1
+Host: www.duelingnetwork.com:8080
+Connection: keep-alive
+Content-Length: 114
+Origin: http://www.duelingnetwork.com
+User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.1 (KHTML, like Gecko) Ubuntu/11.04 Chromium/14.0.835.126 Chrome/14.0.835.126 Safari/535.1
+content-type: application/x-www-form-urlencoded
+Accept: */*
+Referer: http://www.duelingnetwork.com/dn.swf
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: sv-SE,sv;q=0.8,en-US;q=0.6,en;q=0.4
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+
+dn%5Fid=332b945193039af4a3ebf5e96c41843c&remember%5Fme=true&username=simonlindholm&password=hunter2&date=Tue%20Sep%206%2023%3A41%3A14%20GMT%2B0200%202011<EOF>
+
+dn_id is a random hex value stored in a flash cookie, used for auto-login.
+
+
+->
+
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Set-Cookie: session_id=bbdaedf6302641b3b71a3bd29842b95b; Expires=Mon, 25-Sep-2079 00:55:20 GMT
+Pragma: no-cache
+Content-Type: text/html;charset=UTF-8
+Content-Length: 62
+Date: Tue, 06 Sep 2011 21:41:13 GMT
+Connection: close
+
+Logged in,simonlindholm,2ab96390c7dbe3439de74d0c9b0b1767,false
+
+Format:
+
+(Logged in/Not logged in), Username, LoginToken, admin [, Message]
+
+On first join, the message is:
+Welcome to the Dueling Network! Enjoy your time here.
+                         - Black Luster Soldier

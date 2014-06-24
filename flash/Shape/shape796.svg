@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="30px" height="271px"
+xml:space="preserve">
+<g id="PathID_921" transform="matrix(1, 0, 0, 1, -210, -12)">
+<radialGradient
+id="RadialGradID_354" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.0314941, 0, 0, 0.0314941, 225, 86)" spreadMethod ="pad" cx="0" cy="0" r="819.2" fx="0" fy="0" >
+<stop  offset="0"  style="stop-color:#E0C35D;stop-opacity:1" />
+<stop  offset="1"  style="stop-color:#C1962E;stop-opacity:1" />
+</radialGradient>
+<path style="fill:url(#RadialGradID_354) " d="M240 68L240 104Q240 107 237 107L213 107Q210 107 210 104L210 68Q210 65 213 65L237 65Q240 65 240 68" />
+</g>
+<g id="PathID_922" transform="matrix(1, 0, 0, 1, -210, -12)">
+<radialGradient
+id="RadialGradID_355" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.0314941, 0, 0, 0.0314941, 225, 130)" spreadMethod ="pad" cx="0" cy="0" r="819.2" fx="0" fy="0" >
+<stop  offset="0"  style="stop-color:#D4A172;stop-opacity:1" />
+<stop  offset="1"  style="stop-color:#C57131;stop-opacity:1" />
+</radialGradient>
+<path style="fill:url(#RadialGradID_355) " d="M240 112L240 148Q240 151 237 151L213 151Q210 151 210 148L210 112Q210 109 213 109L237 109Q240 109 240 112" />
+</g>
+<g id="PathID_923" transform="matrix(1, 0, 0, 1, -210, -12)">
+<radialGradient
+id="RadialGradID_356" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.0314941, 0, 0, 0.0314941, 225, 174)" spreadMethod ="pad" cx="0" cy="0" r="819.2" fx="0" fy="0" >
+<stop  offset="0"  style="stop-color:#81A0CC;stop-opacity:1" />
+<stop  offset="1"  style="stop-color:#5A79AF;stop-opacity:1" />
+</radialGradient>
+<path style="fill:url(#RadialGradID_356) " d="M240 156L240 192Q240 195 237 195L213 195Q210 195 210 192L210 156Q210 153 213 153L237 153Q240 153 240 156" />
+</g>
+<g id="PathID_924" transform="matrix(1, 0, 0, 1, -210, -12)">
+<radialGradient
+id="RadialGradID_357" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.0314941, 0, 0, 0.0314941, 225, 33)" spreadMethod ="pad" cx="0" cy="0" r="819.2" fx="0" fy="0" >
+<stop  offset="0"  style="stop-color:#FFFFFF;stop-opacity:1" />
+<stop  offset="1"  style="stop-color:#999999;stop-opacity:1" />
+</radialGradient>
+<path style="fill:url(#RadialGradID_357) " d="M240 15L240 51Q240 54 237 54L213 54Q210 54 210 51L210 15Q210 12 213 12L237 12Q240 12 240 15" />
+</g>
+<g id="PathID_925" transform="matrix(1, 0, 0, 1, -210, -12)">
+<radialGradient
+id="RadialGradID_358" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.0314941, 0, 0, 0.0314941, 225, 218)" spreadMethod ="pad" cx="0" cy="0" r="819.2" fx="0" fy="0" >
+<stop  offset="0"  style="stop-color:#93A396;stop-opacity:1" />
+<stop  offset="1"  style="stop-color:#29876D;stop-opacity:1" />
+</radialGradient>
+<path style="fill:url(#RadialGradID_358) " d="M240 200L240 236Q240 239 237 239L213 239Q210 239 210 236L210 200Q210 197 213 197L237 197Q240 197 240 200" />
+</g>
+<g id="PathID_926" transform="matrix(1, 0, 0, 1, -210, -12)">
+<radialGradient
+id="RadialGradID_359" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.0314941, 0, 0, 0.0314941, 225, 262)" spreadMethod ="pad" cx="0" cy="0" r="819.2" fx="0" fy="0" >
+<stop  offset="0"  style="stop-color:#CA7A9D;stop-opacity:1" />
+<stop  offset="1"  style="stop-color:#9C2F72;stop-opacity:1" />
+</radialGradient>
+<path style="fill:url(#RadialGradID_359) " d="M240 244L240 280Q240 283 237 283L213 283Q210 283 210 280L210 244Q210 241 213 241L237 241Q240 241 240 244" />
+</g>
+</svg>

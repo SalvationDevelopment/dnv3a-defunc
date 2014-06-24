@@ -1,0 +1,62 @@
+>> Watch mode
+>> Watch duel,tu,simonlindholm3 (100/0) | simonlindholm2 (100/0),0e48b3c81e1b4f6d9e4e4be21e17cdc3,blah
+<< Watch duel,Turn pick,simonlindholm3,0/1.jpg,,255,255,100,0,false,simonlindholm2,0/1.jpg,,255,255,100,0,false,simonlindholm\,0
+<< Turn pick,simonlindholm3
+<< Duel start,40,0,0,0,44,40,0,0
+<< Duel,Move,hand1,1,field1,8,false,false,,,74,98719226,Alien Warrior,55.scf,Alien Warrior,effect,Reptile/Effect,earth,When this card is destroyed by battle and sent to the Graveyard\, place 2 A-Counters on the monster that destroyed it. (If a monster with an A-Counter battles an "Alien" monster\, it loses 300 ATK and DEF for each A-Counter during damage calculation only.),1800,1000,4,3,,,
+<< Duel,Phase,et,simonlindholm3
+<< Duel,Phase,dp,simonlindholm2,true
+<< Duel,Move,hand2,45,field2,8,false,false,,,3518,67300516,Red-Eyes Wyvern,3344.scf,Red-Eyes Wyvern,effect,Dragon/Effect,wind,During your End Phase\, if you did not Normal Summon or Set a monster this turn\, you can remove from play this card from your Graveyard to Special Summon 1 "Red-Eyes" monster from your Graveyard\, except "Red-Eyes B. Chick".,1800,1600,4,3,,,
+<< Duel,Move,hand2,43,field2,5,false,false,,,17,00295517,A Legendary Ocean,16.scf,Umi,spell,field,,This card's name is treated as "Umi". Downgrade all WATER monsters in both player's hands and on the field by 1 Level. Increases the ATK and DEF of all WATER monsters by 200 points.,?,?,,3,,,
+<< Duel,Move,hand2,42,field2,2,true,false,,
+<< Duel,Move,hand2,41,field2,9,false,false,,special,1857,43793530,Giga Gagagigo,1274.scf,Giga Gagagigo,normal,Reptile,water,In order to fight tremendous evil\, he gained formidable power through body reconstruction\, but lost his heart and his redemption.,2450,1500,5,3,,,
+<< Duel,Move,hand2,44,field2,7,true,true,,
+<< Duel,Move,hand2,40,grave2,,false,false,,,3517,88264978,Red-Eyes Darkness Metal Dragon,2323.scf,Red-Eyes Darkness Metal Dragon,effect,Dragon/Effect,dark,You can remove from play 1 Dragon-Type monster you control to Special Summon this card. Once per turn\, during your Main Phase\, you can Special Summon 1 Dragon-Type monster\, except "Red-Eyes Darkness Metal Dragon"\, from your hand or Graveyard.,2800,2400,10,3,,,
+<< Duel,Move,field2,42,hand2,,true,false,,
+<< Duel,Phase,m1,simonlindholm2
+<< Duel,Phase,bp,simonlindholm2
+<< Duel,Attack,field2,41,1
+<< Duel,Phase,et,simonlindholm2
+<< Duel,Phase,dp,simonlindholm3,true
+<< Watch message,simonlindholm3,Hello.,0
+<< Duel,Move,field1,1,field1,8,false,true,,
+<< Duel,Reveal and move,hand1,5,hand1,,true,false,,,251,20277860,Armored Zombie,177.scf,Armored Zombie,normal,Zombie,dark,This warrior blindly swings a deadly blade with devastating force.,1500,0,3,3,,,
+<< Duel,Hand shuffle,hand1,84
+<< Duel,Move,hand1,86,deck1,,true,false,,
+<< Duel,Move,hand1,85,rfg1,,false,false,,,1255,66672569,Dragon Zombie,917.scf,Dragon Zombie,normal,Zombie,dark,A dragon revived by sorcery. Its breath is highly corrosive.,1600,0,3,3,,,
+<< Duel,Move,hand1,84,field1,9,false,false,,,296,75081613,Aztekipede\, the Worm Warrior,203.scf,Aztekipede\, the Worm Warrior,effect,Insect/Effect,earth,This card cannot be Normal Summoned or Set. This card cannot be Special Summoned except by removing from play 1 Insect-Type monster from your Graveyard. When this card inflicts Battle Damage to your opponent\, send the top card of their Deck to the Graveyard.,1900,400,4,3,,,
+<< Duel,Life points,simonlindholm3,7800
+<< Duel,Token,field1,90,7
+<< Duel,Coin,simonlindholm3,heads
+<< Duel,Die,simonlindholm3,2
+<< Duel,Die,simonlindholm3,5
+<< Duel,Die,simonlindholm3,1
+<< Duel,Phase,ep,simonlindholm3
+<< Duel,Move,field1,84,field1,9,false,true,,
+<< Duel,Move,field1,84,field2,10,false,true,,
+<< Duel,Phase,et,simonlindholm3
+<< Duel,Phase,dp,simonlindholm2,true
+<< Duel,Move,hand2,46,field2,2,false,false,,,2081,74519184,Hand Destruction,1436.scf,Hand Destruction,spell,quickplay,,Each player sends 2 cards from their hand to the Graveyard and draws 2 cards.,?,?,,3,,,
+<< Duel,Status2,Viewing Deck
+<< Duel,Move,deck2,76,field2,6,false,false,,special,513,89631139,Blue-Eyes White Dragon,331.scf,Blue-Eyes White Dragon,normal,Dragon,light,This legendary dragon is a powerful engine of destruction. Virtually invincible\, very few have faced this awesome creature and lived to tell the tale.,3000,2500,8,3,,,
+<< Duel,Move,deck2,77,rfg2,,true,false,,
+<< Duel,Move,deck2,78,rfg2,,false,false,,,168,10667321,Ancient Rules,114.scf,Ancient Rules,spell,normal,,Special Summon 1 Level 5 or higher Normal Monster from your hand.,?,?,,3,,,
+<< Duel,Status2,
+<< Duel,Shuffle,deck2,91
+<< Duel,Move,deck2,,grave2,,false,false,,,1857,43793530,Giga Gagagigo,1274.scf,Giga Gagagigo,normal,Reptile,water,In order to fight tremendous evil\, he gained formidable power through body reconstruction\, but lost his heart and his redemption.,2450,1500,5,3,,,
+>> Watch message,Hello.
+<< Watch message,simonlindholm,Hello.,0
+<< Chat unlock
+<< Duel,Move,field2,46,hand2,,true,false,,
+<< Duel,Hand shuffle,hand2,125
+<< Duel,Hand shuffle,hand2,127
+<< Duel,Status1,Viewing Opponent's Hand
+<< Duel,Status1,
+<< Duel,Hand shuffle,hand2,129
+<< Duel,Status1,Viewing Opponent's Banished
+<< Duel,Status1,
+<< Duel,Status2,Viewing Opponent's Banished
+<< Duel,Status2,
+<< Duel,Life points,simonlindholm3,8000
+<< Player quit,simonlindholm3
+<< Player quit,simonlindholm2

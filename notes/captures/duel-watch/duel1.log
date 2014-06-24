@@ -1,0 +1,95 @@
+>> Load duel room
+<< Load duel room,0,Warrior/Zombie,true
+>> Host duel,tu,Warrior/Zombie,testing,blah,,blah
+<< Host duel
+<< Add joiner,simonlindholm2,100/0
+>> Accept joiner,simonlindholm2
+<< Rock-paper-scissors,simonlindholm3,0/1.jpg,,255,255,100,0,false,simonlindholm2,0/1.jpg,,255,255,100,0,false,
+>> Unsubscribe
+>> Rock-paper-scissors,Scissors
+<< Rock-paper-scissors,Paper
+<< Add watcher,simonlindholm,0
+>> Turn pick,true
+<< Duel start,40,0,0,0,44,40,0,0,1745,59019082,Garoth\, Lightsworn Warrior,1236.scf,Garoth\, Lightsworn Warrior,effect,Warrior/Effect,light,Each time a card(s) is sent from your Deck to the Graveyard by the effect of a "Lightsworn" monster you control\, except "Garoth\, Lightsworn Warrior"\, send the top 2 cards of your Deck to the Graveyard. Then\, draw 1 card for each "Lightsworn" monster sent to the Graveyard by this effect.,1850,1300,4,3,2259,20576,f9b47d166d389ce267ac19a3bf3a9202,74,98719226,Alien Warrior,55.scf,Alien Warrior,effect,Reptile/Effect,earth,When this card is destroyed by battle and sent to the Graveyard\, place 2 A-Counters on the monster that destroyed it. (If a monster with an A-Counter battles an "Alien" monster\, it loses 300 ATK and DEF for each A-Counter during damage calculation only.),1800,1000,4,3,23986,21648,8c42327bd8e4e947e011736ed6478b2c,166,43230671,Ancient Lizard Warrior,112.scf,Ancient Lizard Warrior,normal,Reptile,earth,Before the dawn of man\, this lizard warrior ruled supreme.,1400,1100,4,3,47427,18384,ee5c3e75b6f5a64b388cced560d828a5,925,37043180,D.D. Warrior,660.scf,D.D. Warrior,effect,Warrior/Effect,earth,When this card battles a monster\, after damage calculation remove from play that monster and this card.,1200,1000,4,3,66472,26112,25b9248d03b8ff8fcb0679ed28b30ce8,296,75081613,Aztekipede\, the Worm Warrior,203.scf,Aztekipede\, the Worm Warrior,effect,Insect/Effect,earth,This card cannot be Normal Summoned or Set. This card cannot be Special Summoned except by removing from play 1 Insect-Type monster from your Graveyard. When this card inflicts Battle Damage to your opponent\, send the top card of their Deck to the Graveyard.,1900,400,4,3,92815,20512,f8a0268155c55c1a5623929e42887c7c,251,20277860,Armored Zombie,177.scf,Armored Zombie,normal,Zombie,dark,This warrior blindly swings a deadly blade with devastating force.,1500,0,3,3,218118,14928,58c76117613c85b3a2f5dd80eb2bb321
+>> Duel,Normal Summon,1
+<< Duel,Move,hand1,1,field1,8,false,false,,
+>> Duel,Phase,et
+<< Duel,Phase,et,simonlindholm3
+<< Duel,Phase,dp,simonlindholm2,true
+<< Duel,Move,hand2,45,field2,8,false,false,,,3518,67300516,Red-Eyes Wyvern,3344.scf,Red-Eyes Wyvern,effect,Dragon/Effect,wind,During your End Phase\, if you did not Normal Summon or Set a monster this turn\, you can remove from play this card from your Graveyard to Special Summon 1 "Red-Eyes" monster from your Graveyard\, except "Red-Eyes B. Chick".,1800,1600,4,3,235669,15536,3f79f34ef78b8d7465e822258937fbd0
+<< Duel,Move,hand2,43,field2,5,false,false,,,17,00295517,A Legendary Ocean,16.scf,Umi,spell,field,,This card's name is treated as "Umi". Downgrade all WATER monsters in both player's hands and on the field by 1 Level. Increases the ATK and DEF of all WATER monsters by 200 points.,?,?,,3,178202,16368,f9583da3d1a8000a8baedc3dfbb7e8a5
+<< Duel,Move,hand2,42,field2,2,true,false,,
+<< Duel,Move,hand2,41,field2,9,false,false,,special,1857,43793530,Giga Gagagigo,1274.scf,Giga Gagagigo,normal,Reptile,water,In order to fight tremendous evil\, he gained formidable power through body reconstruction\, but lost his heart and his redemption.,2450,1500,5,3,145988,22080,9604ed7801918a1d662fdf9387a90b4a
+<< Duel,Move,hand2,44,field2,7,true,true,,
+<< Duel,Move,hand2,40,grave2,,false,false,,,3517,88264978,Red-Eyes Darkness Metal Dragon,2323.scf,Red-Eyes Darkness Metal Dragon,effect,Dragon/Effect,dark,You can remove from play 1 Dragon-Type monster you control to Special Summon this card. Once per turn\, during your Main Phase\, you can Special Summon 1 Dragon-Type monster\, except "Red-Eyes Darkness Metal Dragon"\, from your hand or Graveyard.,2800,2400,10,3,117092,25344,e7623c6111674986fe9fe591f8293ecb
+<< Duel,Move,field2,42,hand2,,true,false,,
+<< Duel,Phase,m1,simonlindholm2
+<< Duel,Phase,bp,simonlindholm2
+<< Duel,Attack,field2,41,1
+<< Duel,Phase,et,simonlindholm2
+>> Duel,Phase,dp,true
+<< Duel,Phase,dp,simonlindholm3,1255,66672569,Dragon Zombie,917.scf,Dragon Zombie,normal,Zombie,dark,A dragon revived by sorcery. Its breath is highly corrosive.,1600,0,3,3,253933,18592,5fff7e4b582108078b1cd34b0605f256
+>> Watch message,Hello.
+<< Watch message,simonlindholm3,Hello.,0
+<< Chat unlock
+>> Duel,To DEF,1
+<< Duel,Move,field1,1,field1,8,false,true,,
+>> Duel,Hand Reveal,5
+<< Duel,Reveal and move,hand1,5,hand1,,false,false,,
+<< Duel,Hand shuffle,hand1,84,4,6,3,5,2,0
+>> Duel,Hand To Top of Deck,86
+<< Duel,Move,hand1,86,deck1,,true,false,,
+>> Duel,Hand Remove from Play,85
+<< Duel,Move,hand1,85,rfg1,,false,false,,
+>> Duel,Normal Summon,84
+<< Duel,Move,hand1,84,field1,9,false,false,,
+>> Duel,Life points,-200
+<< Duel,Life points,simonlindholm3,7800
+>> Duel,Token
+<< Duel,Token,field1,90,7
+>> Duel,Coin
+<< Duel,Coin,simonlindholm3,heads
+>> Duel,Die
+<< Duel,Die,simonlindholm3,2
+>> Duel,Die
+<< Duel,Die,simonlindholm3,5
+>> Duel,Die
+<< Duel,Die,simonlindholm3,1
+>> Duel,Phase,ep
+<< Duel,Phase,ep,simonlindholm3
+>> Duel,To DEF,84
+<< Duel,Move,field1,84,field1,9,false,true,,
+>> Duel,Change Control,84
+<< Duel,Move,field1,84,field2,10,false,true,,
+>> Duel,Phase,et
+<< Duel,Phase,et,simonlindholm3
+<< Duel,Phase,dp,simonlindholm2,true
+<< Duel,Move,hand2,46,field2,2,false,false,,,2081,74519184,Hand Destruction,1436.scf,Hand Destruction,spell,quickplay,,Each player sends 2 cards from their hand to the Graveyard and draws 2 cards.,?,?,,3,272984,16848,21cd48f0b672c92464480b84e7d98c00
+<< Duel,Status2,Viewing Deck
+<< Duel,Move,deck2,76,field2,6,false,false,,special,513,89631139,Blue-Eyes White Dragon,331.scf,Blue-Eyes White Dragon,normal,Dragon,light,This legendary dragon is a powerful engine of destruction. Virtually invincible\, very few have faced this awesome creature and lived to tell the tale.,3000,2500,8,3,1148758,15120,a29137c7b9ec4ee5ca580ef74c30f54e
+<< Duel,Move,deck2,77,rfg2,,true,false,,
+<< Duel,Move,deck2,78,rfg2,,false,false,,,168,10667321,Ancient Rules,114.scf,Ancient Rules,spell,normal,,Special Summon 1 Level 5 or higher Normal Monster from your hand.,?,?,,3,614976,14816,fce0885815b06539f212f3a3f9c31ef7
+<< Duel,Status2,
+<< Duel,Shuffle,deck2,91
+<< Duel,Move,deck2,,grave2,,false,false,,,1857,43793530,Giga Gagagigo,1274.scf,Giga Gagagigo,normal,Reptile,water,In order to fight tremendous evil\, he gained formidable power through body reconstruction\, but lost his heart and his redemption.,2450,1500,5,3,145988,22080,9604ed7801918a1d662fdf9387a90b4a
+<< Watch message,simonlindholm,Hello.,0
+<< Duel,Move,field2,46,hand2,,true,false,,
+<< Duel,Hand shuffle,hand2,125
+<< Duel,Hand shuffle,hand2,127
+
+Opponent shows their hand:
+<< Duel,Status1,Viewing Opponent's Hand,2081,74519184,Hand Destruction,1436.scf,Hand Destruction,spell,quickplay,,Each player sends 2 cards from their hand to the Graveyard and draws 2 cards.,?,?,,3,272984,16848,21cd48f0b672c92464480b84e7d98c00,4235,73628505,Terraforming,2766.scf,Terraforming,spell,normal,,Add 1 Field Spell Card from your Deck to your hand.,?,?,,3,168327,9600,bfe2c2fd61a0199cec73b90b4a3a8c42
+
+>> Duel,Close view
+<< Duel,Status1,
+<< Duel,Hand shuffle,hand2,129
+>> Duel,View RFG2
+<< Duel,Status1,Viewing Opponent's Banished
+>> Duel,Close view
+<< Duel,Status1,
+<< Duel,Status2,Viewing Opponent's Banished
+<< Duel,Status2,
+>> Duel,Life points,200
+<< Duel,Life points,simonlindholm3,8000
+>> Load duel room
+<< Load duel room,0,Warrior/Zombie,true

@@ -1,0 +1,44 @@
+<< Add watcher,simonlindholm,0
+<< Duel,Move,field2,96,field1,8,false,true,,
+<< Duel,Move,field2,95,field2,2,false,false,,
+<< Duel,Move,underlay,99,grave2,,false,false,,
+>> Duel,Detach RFG,2
+<< Duel,Move,underlay,2,rfg2,,false,false,,
+>> Duel,Change Control,96
+<< Duel,Move,field1,96,field2,8,false,true,,
+<< Duel,Move,field2,95,field2,9,false,false,,
+<< Duel,Move,field2,95,field2,9,true,true,,
+<< Duel,Move,field2,95,field2,9,false,false,,,5096,69610924,Number 17: Leviathan Dragon,Number17LeviathanDragonVG-TF06-JP.jpg,Number 17: Leviathan Dragon,xyz,Dragon/Xyz/Effect,water,2 Level 3 monsters
+Once per turn: You can detach 1 Xyz Material from this card; this card gains 500 ATK. If this card has no Xyz Material\, it cannot attack your opponent directly.,2000,0,3,3,976888,16368,bfbf26bd1020bf8eeca25d970ba49e13
+<< Duel,Status2,Viewing Extra Deck
+<< Duel,Overlay,extra2,97,field2,95,true,5152,56840427,Number C39: Utopia Ray,5152a.jpg,Number C39: Utopia Ray,xyz,Warrior/Xyz/Effect,light,3 Level 4 LIGHT monsters
+You can also Xyz Summon this card by using a "Number 39: Utopia" you control as the Xyz Material. (Xyz Materials attached to that monster also become Xyz Materials on this card.) You can detach 1 Xyz Material from this card; it gains 500 ATK and 1 monster your opponent controls loses 1000 ATK\, until the End Phase. You must have 1000 Life Points or less to activate and to resolve this effect.,2500,2000,4,3,1012069,16992,02969e3d34f8ccb5d2c678097e79561f
+<< Duel,Overlay,extra2,98,field2,96,true,5101,37926346,Steelswarm Roach,SteelswarmRoachVG-TF06-JP.jpg,Steelswarm Roach,xyz,Fiend/Xyz/Effect,dark,2 Level 4 monsters
+When a Level 5 or higher monster would be Special Summoned: You can detach 1 Xyz Material from this card; negate the Special Summon and destroy it.,1900,0,4,3,1030493,18592,592b428238235b2d72fb3f39464e616d
+<< Duel,Status2,
+<< Duel,Move,underlay,96,grave2,,false,false,,
+<< Duel,Move,underlay,95,grave2,,false,false,,
+<< Duel,Move,underlay,3,grave2,,false,false,,
+<< Duel,Status2,Viewing Extra Deck
+<< Duel,Status2,
+<< Duel,Status2,Viewing Graveyard
+<< Duel,Reveal and move,grave2,99,extra2,,true,false,,
+<< Duel,Status2,
+<< Duel,Status2,Viewing Extra Deck
+<< Duel,Overlay,extra2,99,field2,97,false,5098,10002346,Gachi Gachi Gantetsu,GachiGachiGantetsuVG-TF06-JP.jpg,Gachi Gachi Gantetsu,xyz,Rock/Xyz/Effect,earth,2 Level 2 monsters
+If this face-up card would be destroyed\, you can detach 1 Xyz Material from this card instead. Face-up monsters you control gain 200 ATK and DEF for each Xyz Material attached to this card.,500,1800,2,3,1052557,14784,eb2e859c64e6f5a128a01dba5578cb4c
+<< Duel,Status2,
+<< Duel,Overlay,field2,99,field2,98,false
+<< Duel,Move,hand2,4,field2,9,false,false,,,3695,26202165,Sangan,2438.scf,Sangan,effect,Fiend/Effect,dark,When this card is sent from the field to the Graveyard: Add 1 monster with 1500 or less ATK from your Deck to your hand.,1000,600,3,1,162375,15760,18719a4d9466d2e61d3646f6ee60f54b
+<< Duel,Move,hand2,1,field2,2,true,false,,
+<< Duel,Move,field2,1,field2,2,false,false,,,4904,79852326,Zoma the Spirit,3185.scf,Zoma the Spirit,trap,continuous,,After activation\, Special Summon this card in Defense Position; it is treated as an Effect Monster Card (Zombie-Type/DARK/Level 4/ATK 1800/DEF 500). If this card is destroyed by battle\, inflict damage to your opponent equal to the ATK of the monster that destroyed it. (This card is also still treated as a Trap Card.),?,?,,3,107524,14560,ff656f557cc2805e46ef2e40049214d7
+<< Duel,Move,field2,1,field2,7,false,false,,
+<< Duel,Overlay,field2,99,field2,1,false
+<< Duel,Move,underlay,97,grave2,,false,false,,
+<< Duel,Move,underlay,98,grave2,,false,false,,
+<< Duel,Move,underlay,1,grave2,,false,false,,
+<< Duel,Move,field2,4,field2,9,false,true,,
+<< Duel,Life points,simonlindholm3,0
+<< Win
+>> Load duel room
+<< Load duel room,0,BLUEEYES,true

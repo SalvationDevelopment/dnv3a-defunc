@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="310px" height="110px"
+xml:space="preserve">
+<g id="PathID_990" transform="matrix(1, 0, 0, 1, 2.5, -15.5)">
+<path style="fill:#E1E100;fill-opacity:1" d="M305 28L305 113Q305 123 295 123L10 123Q0 123 0 113L0 28Q0 18 10 18L295 18Q305 18 305 28" />
+<path style="fill:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;stroke:#AAAA00;stroke-opacity:1" d="M295 18L10 18Q0 18 0 28" />
+<path style="fill:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;stroke:#AAAA00;stroke-opacity:1" d="M0 28L0 113Q0 123 10 123" />
+<path style="fill:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;stroke:#AAAA00;stroke-opacity:1" d="M10 123L295 123Q305 123 305 113" />
+<path style="fill:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;stroke:#AAAA00;stroke-opacity:1" d="M305 113L305 28Q305 18 295 18" />
+</g>
+</svg>

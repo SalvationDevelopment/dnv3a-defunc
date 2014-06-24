@@ -1,0 +1,21 @@
+/news.txt?date=Fri%20Sep%209%2016%3A23%3A36%20GMT%2B0200%202011
+(news.txt also works - HTML format but missing styling, could be used as iframe)
+
+MainTimeline:
+            this.URL_START = "http://www.duelingnetwork.com:8080/Dueling_Network/";
+            this.HOSTNAME = "duelingnetwork.com";
+            this.CARD_START = this.URL_START + "images/cards/";
+            this.AVATAR_START = this.URL_START + "images/avatars/";
+            this.BACK_START = this.URL_START + "images/backs/";
+
+Intros:
+http://www.duelingnetwork.com:8080/Dueling_Network/overlap_low.mp3 (higher volume at http://www.youtube.com/watch?v=uYwykrhvhR8)
+http://www.duelingnetwork.com:8080/Dueling_Network/EndlessDream.mp3
+http://www.duelingnetwork.com:8080/Dueling_Network/soft_love_piano_instrumental.mp3 (Valentine's Day)
+http://www.duelingnetwork.com:8080/Dueling_Network/clear_mind.mp3
+
+http://www.duelingnetwork.com:8080/Dueling_Network/images/cards/<card number>.scf
+
+http://www.duelingnetwork.com:8080/Dueling_Network/images/avatars/<required rating>/<id>.jpg
+(e.g. http://www.duelingnetwork.com:8080/Dueling_Network/images/avatars/10/1.jpg)
+Ratings 0, 10, 25, 50, 75, 100, 150, 200, 300, 400, 500, 750, 1000, 2000, 10000

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="1125px" height="500px"
+xml:space="preserve">
+<g id="PathID_1152" transform="matrix(1, 0, 0, 1, 0, 0)">
+<radialGradient
+id="RadialGradID_454" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-0.474899, 0, 0, 0.474899, 750, 250)" spreadMethod ="pad" cx="0" cy="0" r="819.2" fx="0" fy="0" >
+<stop  offset="0.584314"  style="stop-color:#333333;stop-opacity:1" />
+<stop  offset="1"  style="stop-color:#CCCCCC;stop-opacity:1" />
+<stop  offset="1"  style="stop-color:#FFFFFF;stop-opacity:1" />
+<stop  offset="1"  style="stop-color:#FFFFFF;stop-opacity:1" />
+</radialGradient>
+<path style="fill:url(#RadialGradID_454) " d="M750 465.75L964.35 465.75L1090.7 339.35L1090.7 160.65L964.35 34.3L750 34.3L750 0L978.55 0L1125 146.45L1125 353.55L978.55 500L750 500L750 465.75" />
+<radialGradient
+id="RadialGradID_455" gradientUnits="userSpaceOnUse" gradientTransform="matrix(3799.44, 0, 0, 0.474899, 775, 250)" spreadMethod ="pad" cx="0" cy="0" r="819.2" fx="0" fy="0" >
+<stop  offset="0.584314"  style="stop-color:#333333;stop-opacity:1" />
+<stop  offset="1"  style="stop-color:#CCCCCC;stop-opacity:1" />
+<stop  offset="1"  style="stop-color:#FFFFFF;stop-opacity:1" />
+<stop  offset="1"  style="stop-color:#FFFFFF;stop-opacity:1" />
+</radialGradient>
+<path style="fill:url(#RadialGradID_455) " d="M375 34.3L375 0L750 0L750 34.3L375 34.3" />
+<radialGradient
+id="RadialGradID_456" gradientUnits="userSpaceOnUse" gradientTransform="matrix(3799.34, 0, 0, 0.474899, 775, 250)" spreadMethod ="pad" cx="0" cy="0" r="819.2" fx="0" fy="0" >
+<stop  offset="0.584314"  style="stop-color:#333333;stop-opacity:1" />
+<stop  offset="1"  style="stop-color:#CCCCCC;stop-opacity:1" />
+<stop  offset="1"  style="stop-color:#FFFFFF;stop-opacity:1" />
+<stop  offset="1"  style="stop-color:#FFFFFF;stop-opacity:1" />
+</radialGradient>
+<path style="fill:url(#RadialGradID_456) " d="M375 465.75L750 465.75L750 500L375 500L375 465.75" />
+<radialGradient
+id="RadialGradID_457" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.474899, 0, 0, 0.474899, 375, 250)" spreadMethod ="pad" cx="0" cy="0" r="819.2" fx="0" fy="0" >
+<stop  offset="0.584314"  style="stop-color:#333333;stop-opacity:1" />
+<stop  offset="1"  style="stop-color:#CCCCCC;stop-opacity:1" />
+<stop  offset="1"  style="stop-color:#FFFFFF;stop-opacity:1" />
+<stop  offset="1"  style="stop-color:#FFFFFF;stop-opacity:1" />
+</radialGradient>
+<path style="fill:url(#RadialGradID_457) " d="M160.65 34.3L34.3 160.65L34.3 339.35L160.65 465.75L375 465.75L375 500L146.45 500L0 353.55L0 146.45L146.45 0L375 0L375 34.3L160.65 34.3" />
+<path style="fill:#FF0000;fill-opacity:1" d="M375 34.3L750 34.3L750 465.75L375 465.75L375 34.3" />
+<radialGradient
+id="RadialGradID_458" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-0.429977, 0, 0, 0.429977, 750, 250)" spreadMethod ="pad" cx="0" cy="0" r="819.2" fx="0" fy="0" >
+<stop  offset="0.647059"  style="stop-color:#FF0000;stop-opacity:1" />
+<stop  offset="1"  style="stop-color:#333333;stop-opacity:1" />
+<stop  offset="1"  style="stop-color:#FFFFFF;stop-opacity:1" />
+<stop  offset="1"  style="stop-color:#FFFFFF;stop-opacity:1" />
+</radialGradient>
+<path style="fill:url(#RadialGradID_458) " d="M750 34.3L964.35 34.3L1090.7 160.65L1090.7 339.35L964.35 465.75L750 465.75L750 34.3" />
+<radialGradient
+id="RadialGradID_459" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.429977, 0, 0, 0.429977, 375, 250)" spreadMethod ="pad" cx="0" cy="0" r="819.2" fx="0" fy="0" >
+<stop  offset="0.647059"  style="stop-color:#FF0000;stop-opacity:1" />
+<stop  offset="1"  style="stop-color:#333333;stop-opacity:1" />
+<stop  offset="1"  style="stop-color:#FFFFFF;stop-opacity:1" />
+<stop  offset="1"  style="stop-color:#FFFFFF;stop-opacity:1" />
+</radialGradient>
+<path style="fill:url(#RadialGradID_459) " d="M375 465.75L160.65 465.75L34.3 339.35L34.3 160.65L160.65 34.3L375 34.3L375 465.75" />
+</g>
+</svg>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="64px" height="22px"
+xml:space="preserve">
+<g id="PathID_344" transform="matrix(1, 0, 0, 1, -0.05, 0)">
+<linearGradient
+id="LinearGradID_213" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0, -0.0134277, 0.013443, 0, 71, 11)" spreadMethod ="pad" x1="-819.2" y1="0" x2="819.2" y2="0" >
+<stop  offset="0" style="stop-color:#585F63;stop-opacity:1" />
+<stop  offset="1" style="stop-color:#B7BABC;stop-opacity:1" />
+</linearGradient>
+<path style="fill:url(#LinearGradID_213) " d="M41 22L41 21L59.25 21L60.1 21Q63 20.95 63 18L63 16.05L63 4.95L63 4Q63 1.1 60.1 1L59.25 1L41 1L41 0L59.25 0L60 0Q64 0 64 4L64 4.95L64 16.05L64 18Q64 22 60 22L59.25 22L41 22" />
+<linearGradient
+id="LinearGradID_214" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0, -0.0134277, -0.013443, 0, 11.05, 11)" spreadMethod ="pad" x1="-819.2" y1="0" x2="819.2" y2="0" >
+<stop  offset="0" style="stop-color:#585F63;stop-opacity:1" />
+<stop  offset="1" style="stop-color:#B7BABC;stop-opacity:1" />
+</linearGradient>
+<path style="fill:url(#LinearGradID_214) " d="M41 22L5.95 22L4.05 22Q0 22 0.05 18L0.05 16.05L0.05 4.95L0.05 4Q0 0 4.05 0L5.95 0L41 0L41 1L5.95 1L3.9 1Q1 1.05 1.05 4L1.05 4.95L1.05 16.05L1.05 18Q1 20.95 3.9 21L5.95 21L41 21L41 22" />
+</g>
+<g id="PathID_345" transform="matrix(1, 0, 0, 1, -0.05, 0)">
+<linearGradient
+id="LinearGradID_215" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0, -0.0134277, 0.013443, 0, 71, 11)" spreadMethod ="pad" x1="-819.2" y1="0" x2="819.2" y2="0" >
+<stop  offset="0" style="stop-color:#CCCCCC;stop-opacity:0.4" />
+<stop  offset="1" style="stop-color:#CCCCCC;stop-opacity:0.6" />
+</linearGradient>
+<path style="fill:url(#LinearGradID_215) " d="M41.05 21L41.05 16.05L41.05 4.95L41.05 1L59.25 1L60.1 1Q63 1.1 63 4L63 4.95L63 16.05L63 18Q63 20.95 60.1 21L59.25 21L41.05 21" />
+<linearGradient
+id="LinearGradID_216" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0, -0.0134277, -0.013443, 0, 11.05, 11)" spreadMethod ="pad" x1="-819.2" y1="0" x2="819.2" y2="0" >
+<stop  offset="0" style="stop-color:#CCCCCC;stop-opacity:0.4" />
+<stop  offset="1" style="stop-color:#CCCCCC;stop-opacity:0.6" />
+</linearGradient>
+<path style="fill:url(#LinearGradID_216) " d="M41.05 4.95L41.05 16.05L41.05 21L5.95 21L3.9 21Q1 20.95 1.05 18L1.05 16.05L1.05 4.95L1.05 4Q1 1.05 3.9 1L5.95 1L41.05 1L41.05 4.95" />
+</g>
+</svg>

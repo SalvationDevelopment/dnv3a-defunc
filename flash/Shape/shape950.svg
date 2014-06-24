@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="460px" height="222px"
+xml:space="preserve">
+<g id="PathID_989" transform="matrix(1, 0, 0, 1, -543.65, -108.2)">
+<path style="fill:#FF6666;fill-opacity:1" d="M1001.15 120.7L1001.15 317.7Q1001.15 327.7 991.15 327.7L556.15 327.7Q546.15 327.7 546.15 317.7L546.15 120.7Q546.15 110.7 556.15 110.7L991.15 110.7Q1001.15 110.7 1001.15 120.7" />
+<path style="fill:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;stroke:#FF0000;stroke-opacity:1" d="M991.15 110.7L556.15 110.7Q546.15 110.7 546.15 120.7" />
+<path style="fill:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;stroke:#FF0000;stroke-opacity:1" d="M546.15 120.7L546.15 317.7Q546.15 327.7 556.15 327.7" />
+<path style="fill:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;stroke:#FF0000;stroke-opacity:1" d="M556.15 327.7L991.15 327.7Q1001.15 327.7 1001.15 317.7" />
+<path style="fill:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;stroke:#FF0000;stroke-opacity:1" d="M1001.15 317.7L1001.15 120.7Q1001.15 110.7 991.15 110.7" />
+</g>
+</svg>

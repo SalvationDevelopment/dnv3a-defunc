@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="14px" height="14px"
+xml:space="preserve">
+<g id="PathID_268" transform="matrix(1, 0, 0, 1, 0, 0)">
+<linearGradient
+id="LinearGradID_130" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0, -0.00730896, 0.00730896, 0, 5.95, 6.3)" spreadMethod ="pad" x1="-819.2" y1="0" x2="819.2" y2="0" >
+<stop  offset="0" style="stop-color:#99D7FE;stop-opacity:1" />
+<stop  offset="1" style="stop-color:#D9F0FE;stop-opacity:1" />
+</linearGradient>
+<path style="fill:url(#LinearGradID_130) " d="M11.25 11.25Q9.5 13 7 13Q4.5 13 2.75 11.25Q1 9.5 1 7Q1 4.5 2.75 2.75Q4.5 1 7 1Q9.5 1 11.25 2.75Q13 4.5 13 7Q13 9.5 11.25 11.25" />
+<linearGradient
+id="LinearGradID_131" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0, -0.00961304, 0.00961304, 0, 7.25, 7)" spreadMethod ="pad" x1="-819.2" y1="0" x2="819.2" y2="0" >
+<stop  offset="0" style="stop-color:#0075BF;stop-opacity:1" />
+<stop  offset="0.992157" style="stop-color:#009DFF;stop-opacity:1" />
+</linearGradient>
+<path style="fill:url(#LinearGradID_131) " d="M11.95 11.95Q9.9 14 7 14Q4.1 14 2.05 11.95Q0 9.9 0 7Q0 4.1 2.05 2.05Q4.1 0 7 0Q9.9 0 11.95 2.05Q14 4.1 14 7Q14 9.9 11.95 11.95M13 7Q13 4.5 11.25 2.75Q9.5 1 7 1Q4.5 1 2.75 2.75Q1 4.5 1 7Q1 9.5 2.75 11.25Q4.5 13 7 13Q9.5 13 11.25 11.25Q13 9.5 13 7" />
+</g>
+<g id="PathID_269" transform="matrix(1, 0, 0, 1, 0, 0)">
+<linearGradient
+id="LinearGradID_132" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0, -0.00372314, 0.00730896, 0, 5.9, 4)" spreadMethod ="pad" x1="-819.2" y1="0" x2="819.2" y2="0" >
+<stop  offset="0" style="stop-color:#CCCCCC;stop-opacity:0" />
+<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0.298039" />
+</linearGradient>
+<path style="fill:url(#LinearGradID_132) " d="M2.75 2.75Q4.5 1 7 1Q9.5 1 11.25 2.75L11.55 3.05Q13 4.7 13 7L1 7Q1 4.7 2.5 3.05L2.75 2.75" />
+</g>
+</svg>

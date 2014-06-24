@@ -1,0 +1,4 @@
+resource dnsocket content/
+content dnsocket content/
+
+overlay chrome://browser/content/browser.xul chrome://dnsocket/content/dnsocket.xul

@@ -1,0 +1,26 @@
+<< Add watcher,simonlindholm,0
+<< Watch message,simonlindholm,yo,0
+<< Watch message,simonlindholm,hi,0
+>> Watch message,yo
+<< Watch message,simonlindholm2,yo,0
+<< Chat unlock
+<< Watch message,simonlindholm,yo,0
+<< Watch message,simonlindholm3,yo,0
+>> Duel,Token
+<< Duel,Token,field1,109,6
+>> Duel,Field To Spell/Trap Zone,108
+<< Duel,Move,field1,108,field1,2,false,false,,
+>> Duel,Change Control,109
+<< Duel,Move,field1,109,field2,7,false,true,,
+>> Duel,Field To Extra Deck,101
+<< Duel,Move,field1,101,extra1,,true,false,,
+>> Duel,View Extra,101
+<< Duel,Status1,Viewing Extra Deck
+>> Duel,Close view
+<< Duel,Status1,
+>> Duel,Show Extra,101
+<< Duel,Status2,Viewing Opponent's Extra Deck
+>> Duel,View Grave1
+<< Duel,Status1,Viewing Graveyard
+>> Duel,Close view
+<< Duel,Status1,

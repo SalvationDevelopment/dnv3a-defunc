@@ -1,0 +1,70 @@
+<< Add watcher,simonlindholm,0
+>> Duel,Change Control,96
+<< Duel,Move,field1,96,field2,8,false,true,,
+>> Duel,Field To Spell/Trap Zone,95
+<< Duel,Move,field1,95,field1,2,false,false,,
+>> Duel,Detach Grave,99
+<< Duel,Move,underlay,99,grave1,,false,false,,
+<< Duel,Move,underlay,2,rfg1,,false,false,,
+<< Duel,Move,field2,96,field1,8,false,true,,
+>> Duel,Field To Monster Zone,95
+<< Duel,Move,field1,95,field1,9,false,false,,
+>> Duel,Field Set,95
+<< Duel,Move,field1,95,field1,9,true,true,,
+>> Duel,Flip Summon,95
+<< Duel,Move,field1,95,field1,9,false,false,,
+>> Duel,View Extra,98
+<< Duel,Status1,Viewing Extra Deck
+>> Duel,Xyz Overlay DEF,97,95
+<< Duel,Overlay,extra1,97,field1,95,true
+>> Duel,Xyz Overlay DEF,98,96
+<< Duel,Overlay,extra1,98,field1,96,true
+>> Duel,Close view
+<< Duel,Status1,
+>> Duel,Detach Grave,96
+<< Duel,Move,underlay,96,grave1,,false,false,,
+>> Duel,Detach Grave,95
+<< Duel,Move,underlay,95,grave1,,false,false,,
+>> Duel,Detach Grave,3
+<< Duel,Move,underlay,3,grave1,,false,false,,
+>> Duel,View Extra,94
+<< Duel,Status1,Viewing Extra Deck
+>> Duel,Close view
+<< Duel,Status1,
+>> Duel,View Grave1
+<< Duel,Status1,Viewing Graveyard
+>> Duel,Grave1 To Extra Deck,99
+<< Duel,Reveal and move,grave1,99,extra1,,true,false,,
+>> Duel,Close view
+<< Duel,Status1,
+>> Duel,View Extra,99
+<< Duel,Status1,Viewing Extra Deck
+>> Duel,Xyz Overlay ATK,99,97
+<< Duel,Overlay,extra1,99,field1,97,false
+>> Duel,Close view
+<< Duel,Status1,
+>> Duel,Field Overlay,99,98
+<< Duel,Overlay,field1,99,field1,98,false
+>> Duel,Normal Summon,4
+<< Duel,Move,hand1,4,field1,9,false,false,,
+>> Duel,Hand Set,1
+<< Duel,Move,hand1,1,field1,2,true,false,,
+>> Duel,Field Activate,1
+<< Duel,Move,field1,1,field1,2,false,false,,
+>> Duel,Field To Monster Zone,1
+<< Duel,Move,field1,1,field1,7,false,false,,
+>> Duel,Field Overlay,99,1
+<< Duel,Overlay,field1,99,field1,1,false
+>> Duel,Detach Grave,97
+<< Duel,Move,underlay,97,grave1,,false,false,,
+>> Duel,Detach Grave,98
+<< Duel,Move,underlay,98,grave1,,false,false,,
+>> Duel,Detach Grave,1
+<< Duel,Move,underlay,1,grave1,,false,false,,
+>> Duel,To DEF,4
+<< Duel,Move,field1,4,field1,9,false,true,,
+>> Duel,Life points,-8000
+<< Duel,Life points,simonlindholm3,0
+>> Admit defeat
+<< Lose
+<< Player quit,simonlindholm2

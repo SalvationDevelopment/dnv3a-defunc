@@ -1,0 +1,73 @@
+<< Duel,Move,hand2,47,field2,8,false,false,,,3095,28297833,Necroface,2029.scf,Necroface,effect,Zombie/Effect,dark,When this card is Normal Summoned\, shuffle all removed from play cards into their owners' Decks. This card gains 100 ATK for each of those cards. When this card is removed from play\, both players remove from play the top 5 cards of their Deck.,1200,1800,4,1,158401,15760,1df574ec018ad3dbedb757b6bfbf3cbd
+<< Duel,Move,hand2,48,field2,2,false,false,,,1991,16762927,Gravekeeper's Servant,1369.scf,Gravekeeper's Servant,spell,continuous,,Your opponent cannot declare an attack unless they send 1 card from the top of their Deck to the Graveyard.,?,?,,3,177145,12848,27691c27116352056a698d81954b7aa7
+<< Duel,Move,hand2,46,field2,3,false,false,,,4944,83764718,Monster Reborn,1970.scf,Monster Reborn,spell,normal,,Special Summon 1 monster from either player's Graveyard to your side of the field.,?,?,,1,464,17712,292a593a0e5480bb3e9b30a0fe4dc841
+<< Duel,Move,hand2,45,rfg2,,false,false,,,2841,44656491,Messenger of Peace,1896.scf,Messenger of Peace,spell,continuous,,During each of your Standby Phases pay 100 Life Points or destroy this card. Neither player can declare attacks with face-up monsters with 1500 or more ATK.,?,?,,3,136980,17552,c47face6ee13702871144e71ff3c77db
+<< Duel,Move,hand2,49,rfg2,,false,false,,,926,07572887,D.D. Warrior Lady,661.scf,D.D. Warrior Lady,effect,Warrior/Effect,light,When this card battles with your opponent's monster\, after damage calculation you can remove from play the opponent's monster and this card.,1500,1600,4,3,191320,16320,855fb5817936dbb0c11b18e167883082
+<< Duel,Move,hand2,44,grave2,,false,false,,,1178,81674782,Dimensional Fissure,865.scf,Dimensional Fissure,spell,continuous,,Any monster sent to the Graveyard is banished instead.,?,?,,3,114396,22384,1a50c23e190548257c50b3b98b1f390c
+<< Duel,Status2,Viewing Extra Deck
+<< Duel,Move,extra2,100,field2,9,false,false,,special,1724,97204936,Gaia Knight\, the Force of Earth,1225.scf,Gaia Knight\, the Force of Earth,synchro,Warrior/Synchro,earth,1 Tuner + 1 or more non-Tuner Monsters,2600,800,6,3,1159899,21184,25a1247d7300a72fa85905b6e87f4209
+<< Duel,Overlay,extra2,102,field2,47,false,5100,05014629,Submersible Carrier Aero Shark,SubmersibleCarrierAeroSharkVG-TF06-JP.jpg,Submersible Carrier Aero Shark,xyz,Fish/Xyz/Effect,water,2 Level 3 monsters
+Once per turn: You can detach 1 Xyz Material from this card; inflict 100 damage to your opponent for each of your banished monsters.,1900,1000,3,3,1206870,16784,45f484d8a5b790845a2b85e0090ce066
+<< Duel,Status2,
+<< Duel,Phase,et,simonlindholm
+>> Duel,Phase,dp,true
+<< Duel,Phase,dp,simonlindholm2,3517,88264978,Red-Eyes Darkness Metal Dragon,2323.scf,Red-Eyes Darkness Metal Dragon,effect,Dragon/Effect,dark,You can Special Summon this card (from your hand) by banishing 1 face-up Dragon-Type monster you control. Once per turn: You can Special Summon 1 Dragon-Type monster from your hand or Graveyard\, except "Red-Eyes Darkness Metal Dragon".,2800,2400,10,3,64934,25344,071ffd2d2e63b5a18b6a1f783e3d1ffc
+>> Duel,Hand Activate,4
+<< Duel,Move,hand1,4,field1,2,false,false,,
+>> Duel,Normal Summon,5
+<< Duel,Move,hand1,5,field1,8,false,false,,
+>> Duel,Hand Set,1
+<< Duel,Move,hand1,1,field1,3,true,false,,
+>> Duel,Field To Graveyard,4
+<< Duel,Move,field1,4,grave1,,false,false,,
+>> Duel,Change Control,5
+<< Duel,Move,field1,5,field2,7,false,false,,
+>> Duel,Hand Set,2
+<< Duel,Move,hand1,2,field1,8,true,true,,
+>> Duel,View Extra,87
+<< Duel,Status1,Viewing Extra Deck
+<< Add watcher,simonlindholm3,0
+>> Duel,Extra Special Summon DEF,87
+<< Duel,Move,extra1,87,field1,9,false,true,,special
+>> Duel,Close view
+<< Duel,Status1,
+>> Duel,Hand To Top of Deck,3
+<< Duel,Move,hand1,3,deck1,,true,false,,
+>> Duel,Hand To Top of Deck,0
+<< Duel,Move,hand1,0,deck1,,true,false,,
+>> Duel,Draw,0
+<< Duel,Move,deck1,,hand1,,false,false,,,4944,83764718,Monster Reborn,1970.scf,Monster Reborn,spell,normal,,Special Summon 1 monster from either player's Graveyard to your side of the field.,?,?,,1,464,17712,292a593a0e5480bb3e9b30a0fe4dc841
+>> Duel,Draw,3
+<< Duel,Move,deck1,,hand1,,false,false,,,3517,88264978,Red-Eyes Darkness Metal Dragon,2323.scf,Red-Eyes Darkness Metal Dragon,effect,Dragon/Effect,dark,You can Special Summon this card (from your hand) by banishing 1 face-up Dragon-Type monster you control. Once per turn: You can Special Summon 1 Dragon-Type monster from your hand or Graveyard\, except "Red-Eyes Darkness Metal Dragon".,2800,2400,10,3,64934,25344,071ffd2d2e63b5a18b6a1f783e3d1ffc
+>> Duel,Hand To Top of Deck,3
+<< Duel,Move,hand1,3,deck1,,true,false,,
+>> Duel,Draw,3
+<< Duel,Move,deck1,,hand1,,false,false,,,3517,88264978,Red-Eyes Darkness Metal Dragon,2323.scf,Red-Eyes Darkness Metal Dragon,effect,Dragon/Effect,dark,You can Special Summon this card (from your hand) by banishing 1 face-up Dragon-Type monster you control. Once per turn: You can Special Summon 1 Dragon-Type monster from your hand or Graveyard\, except "Red-Eyes Darkness Metal Dragon".,2800,2400,10,3,64934,25344,071ffd2d2e63b5a18b6a1f783e3d1ffc
+>> Duel,Draw,6
+<< Duel,Move,deck1,,hand1,,false,false,,,168,10667321,Ancient Rules,114.scf,Ancient Rules,spell,normal,,Special Summon 1 Level 5 or higher Normal Monster from your hand.,?,?,,3,210737,14816,9f11fe4db10771afa7f649791bfd14da
+>> Duel,Hand To Bottom of Deck,6
+<< Duel,Move,hand1,6,deck1_bottom,,true,false,,
+>> Duel,Hand To Bottom of Deck,3
+<< Duel,Move,hand1,3,deck1_bottom,,true,false,,
+>> Duel,Field To Spell/Trap Zone,87
+<< Duel,Move,field1,87,field1,2,false,false,,
+>> Duel,Field To Hand,2
+<< Duel,Move,field1,2,hand1,,false,false,,
+<< Duel,Hand shuffle,hand1,103,2,0
+>> Duel,Hand Set,103
+<< Duel,Move,hand1,103,field1,8,true,true,,
+>> Duel,Field To Hand,103
+<< Duel,Move,field1,103,hand1,,false,false,,
+<< Duel,Hand shuffle,hand1,105,104,103
+>> Duel,Hand Activate,105
+<< Duel,Move,hand1,105,field1,1,false,false,,
+>> Duel,Field To Hand,105
+<< Duel,Move,field1,105,hand1,,false,false,,
+<< Duel,Hand shuffle,hand1,107,106,105
+>> Duel,Hand Activate,108
+<< Duel,Move,hand1,108,field1,1,false,false,,
+<< Remove watcher,simonlindholm3
+<< Win
+<< Player quit,simonlindholm
+>> Load duel room
+<< Load duel room,0,BLUEEYES,true

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="22px" height="22px"
+xml:space="preserve">
+<g id="PathID_258" transform="matrix(1, 0, 0, 1, 0, 0)">
+<path style="fill:#CCCCCC;fill-opacity:1" d="M0 21L1 21L2.95 21L14.05 21L21 21L21 16.05L21 2.95L21 1L21 0L22 0L22 2.95L22 16.05L22 22L14.05 22L2.95 22L0 22L0 21" />
+<path style="fill:#E5E6E7;fill-opacity:1" d="M20 16L20 2.95L20 2L19 2L14.05 2L2.95 2L2 2L2 2.95L2 16.05L2 19L2 20L2.95 20L14 20L14 19L14 16.05L14 16L14.05 16L19 16L20 16M21 2.95L21 16.05L21 21L14.05 21L2.95 21L1 21L1 16.05L1 2.95L1 1L2.95 1L14.05 1L21 1L21 2.95M19.5 17.55L15.45 17.55L17.5 19.55L19.5 17.55" />
+<path style="fill:#FFFFFF;fill-opacity:1" d="M3 19L14 19L14 20L2.95 20L2 20L2 19L2.95 19L3 19M19 2.95L19 2L20 2L20 2.95L20 16L19 16L19 3L19 2.95M0 21L0 16.05L0 2.95L0 0L2.95 0L14.05 0L21 0L21 1L14.05 1L2.95 1L1 1L1 2.95L1 16.05L1 21L0 21" />
+<path style="fill:#9A9B9D;fill-opacity:1" d="M19 3L14.05 3L3 3L3 16.05L3 19L2.95 19L2 19L2 16.05L2 2.95L2 2L2.95 2L14.05 2L19 2L19 2.95L19 3" />
+<path style="fill:#333333;fill-opacity:0" d="M3 19L3 16.05L3 3L14.05 3L19 3L19 16L14.05 16L14 16L14 16.05L14 19L3 19" />
+<path style="fill:#000000;fill-opacity:1" d="M17.5 19.55L15.45 17.55L19.5 17.55L17.5 19.55" />
+</g>
+</svg>

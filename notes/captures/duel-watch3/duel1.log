@@ -1,0 +1,20 @@
+<< Add watcher,simonlindholm,0
+<< Watch message,simonlindholm,yo,0
+<< Watch message,simonlindholm,hi,0
+<< Watch message,simonlindholm2,yo,0
+<< Watch message,simonlindholm,yo,0
+>> Watch message,yo
+<< Watch message,simonlindholm3,yo,0
+<< Chat unlock
+<< Duel,Token,field2,109,6
+<< Duel,Move,field2,108,field2,2,false,false,,
+<< Duel,Move,field2,109,field1,7,false,true,,
+<< Duel,Move,field2,101,extra2,,true,false,,
+<< Duel,Status2,Viewing Extra Deck
+<< Duel,Status2,
+<< Duel,Status1,Viewing Opponent's Extra Deck,1222,06021033,Doomkaiser Dragon,3388.scf,Doomkaiser Dragon,synchro,Zombie/Synchro/Effect,fire,"Plaguespreader Zombie" + 1 or more non-Tuner Zombie-Type monsters
+When this card is Special Summoned\, you can select 1 Zombie-Type monster in your opponent's Graveyard and Special Summon it to your side of the field in Attack Position. Destroy it when this card is removed from the field.,2400,1500,6,3,860035,16944,73f4d31272f114c3b4bc3e6c936a6055,512,23995346,Blue-Eyes Ultimate Dragon,330.scf,Blue-Eyes Ultimate Dragon,fusion,Dragon/Fusion,light,"Blue-Eyes White Dragon" + "Blue-Eyes White Dragon" + "Blue-Eyes White Dragon",4500,3800,12,3,900296,22752,97f23988e8146be6f4967f37ec5efbd0,1604,99267150,Five-Headed Dragon,1146.scf,Five-Headed Dragon,fusion,Dragon/Fusion/Effect,dark,5 Dragon-Type monsters
+This monster cannot be Special Summoned except by Fusion Summon. This card cannot be destroyed by battle with an EARTH\, WATER\, FIRE\, WIND\, or DARK monster. (Damage calculation is applied normally.),5000,5000,12,3,926462,22736,c3dc30f825ac07da8b7c3b3393583d51,5106,00698785,Thunder End Dragon,ThunderEndDragonVG-TF06-JP.jpg,Thunder End Dragon,xyz,Dragon/Xyz/Effect,light,2 Level 8 Normal Monsters
+Once per turn: You can detach 1 Xyz Material from this card; destroy all other monsters on the field.,3000,2000,8,3,878954,17456,1ccbf3f679f5ceb432493520e935d769
+<< Duel,Status2,Viewing Graveyard
+<< Duel,Status2,

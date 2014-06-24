@@ -1,0 +1,4 @@
+-swf ../communicator.swf
+-swf-version 10
+-main Communicator
+-swf-header 1:1:10:00ffff

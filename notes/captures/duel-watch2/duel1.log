@@ -1,0 +1,58 @@
+>> Duel,Normal Summon,47
+<< Duel,Move,hand1,47,field1,8,false,false,,
+>> Duel,Hand Activate,48
+<< Duel,Move,hand1,48,field1,2,false,false,,
+>> Duel,Hand Activate,46
+<< Duel,Move,hand1,46,field1,3,false,false,,
+>> Duel,Hand Remove from Play,45
+<< Duel,Move,hand1,45,rfg1,,false,false,,
+>> Duel,Hand Remove from Play,49
+<< Duel,Move,hand1,49,rfg1,,false,false,,
+>> Duel,Hand To Graveyard,44
+<< Duel,Move,hand1,44,grave1,,false,false,,
+>> Duel,View Extra,102
+<< Duel,Status1,Viewing Extra Deck
+>> Duel,Extra Special Summon ATK,100
+<< Duel,Move,extra1,100,field1,9,false,false,,special
+>> Duel,Xyz Overlay ATK,102,47
+<< Duel,Overlay,extra1,102,field1,47,false
+>> Duel,Close view
+<< Duel,Status1,
+>> Duel,Phase,et
+<< Duel,Phase,et,simonlindholm
+<< Duel,Phase,dp,simonlindholm2,true
+<< Duel,Move,hand2,4,field2,2,false,false,,,4436,38120068,Trade-In,2917.scf,Trade-In,spell,normal,,Discard 1 Level 8 monster. Draw 2 cards.,?,?,,3,174531,20416,f48f41086092bca6c7f3a1712938de2d
+<< Duel,Move,hand2,5,field2,8,false,false,,,3517,88264978,Red-Eyes Darkness Metal Dragon,2323.scf,Red-Eyes Darkness Metal Dragon,effect,Dragon/Effect,dark,You can Special Summon this card (from your hand) by banishing 1 face-up Dragon-Type monster you control. Once per turn: You can Special Summon 1 Dragon-Type monster from your hand or Graveyard\, except "Red-Eyes Darkness Metal Dragon".,2800,2400,10,3,146127,25344,f96b43dccf27886f089968727848142c
+<< Duel,Move,hand2,1,field2,3,true,false,,
+<< Duel,Move,field2,4,grave2,,false,false,,
+<< Duel,Move,field2,5,field1,7,false,false,,
+<< Duel,Move,hand2,2,field2,8,true,true,,
+<< Duel,Status2,Viewing Extra Deck
+<< Add watcher,simonlindholm3,0
+<< Duel,Move,extra2,87,field2,9,false,true,,special,1604,99267150,Five-Headed Dragon,1146.scf,Five-Headed Dragon,fusion,Dragon/Fusion/Effect,dark,5 Dragon-Type monsters
+This monster cannot be Special Summoned except by Fusion Summon. This card cannot be destroyed by battle with an EARTH\, WATER\, FIRE\, WIND\, or DARK monster. (Damage calculation is applied normally.),5000,5000,12,3,1019462,22736,23d924e769091bb14e9832c567fd1720
+<< Duel,Status2,
+<< Duel,Move,hand2,3,deck2,,true,false,,
+<< Duel,Move,hand2,0,deck2,,true,false,,
+<< Duel,Move,deck2,,hand2,,true,false,,
+<< Duel,Move,deck2,,hand2,,true,false,,
+<< Duel,Move,hand2,3,deck2,,true,false,,
+<< Duel,Move,deck2,,hand2,,true,false,,
+<< Duel,Move,deck2,,hand2,,true,false,,
+<< Duel,Move,hand2,6,deck2_bottom,,true,false,,
+<< Duel,Move,hand2,3,deck2_bottom,,true,false,,
+<< Duel,Move,field2,87,field2,2,false,false,,
+<< Duel,Move,field2,2,hand2,,true,false,,
+<< Duel,Hand shuffle,hand2,103
+<< Duel,Move,hand2,103,field2,8,true,true,,
+<< Duel,Move,field2,103,hand2,,true,false,,
+<< Duel,Hand shuffle,hand2,105
+<< Duel,Move,hand2,105,field2,1,false,false,,,4944,83764718,Monster Reborn,1970.scf,Monster Reborn,spell,normal,,Special Summon 1 monster from either player's Graveyard to your side of the field.,?,?,,1,49230,17712,3bea86f1ced520c8ef3bdaa1d9a0b1ad
+<< Duel,Move,field2,105,hand2,,true,false,,
+<< Duel,Hand shuffle,hand2,107
+<< Duel,Move,hand2,108,field2,1,false,false,,,4944,83764718,Monster Reborn,1970.scf,Monster Reborn,spell,normal,,Special Summon 1 monster from either player's Graveyard to your side of the field.,?,?,,1,49230,17712,3bea86f1ced520c8ef3bdaa1d9a0b1ad
+<< Remove watcher,simonlindholm3
+>> Admit defeat
+<< Lose
+>> Load duel room
+<< Load duel room,1,Diamonds!?,true,Macro,false,Ojama!!,false,Simochi,true,XCHG SPIRIT,false

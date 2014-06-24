@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>Dueling Network v3.a</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+<script src="js/jquery.mousewheel.js"></script>
+<script src="js/jquery.rotate.js"></script>
+<script src="js/es6-shim.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+<script src="js/md5.js"></script>
+<script src="js/inheritance.js"></script>
+<script src="js/util.js"></script>
+<script src="js/communicator.js"></script>
+<script src="js/commands.js"></script>
+<script src="js/core.js"></script>
+<script src="js/sidebar.js"></script>
+<script src="js/user.js"></script>
+<script src="js/chat.js"></script>
+<script src="js/error.js"></script>
+<script src="js/login.js"></script>
+<script src="js/card.js"></script>
+<script src="js/duel.js"></script>
+<script src="js/matchmaking.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/debug.js"></script>
+<script src="js/main.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<noscript>
+	This page relies on JavaScript, please enable it.
+</noscript>
+<div id="fullscreen">
+<div id="sidebar"></div>
+<div id="views">
+
+<div id="loginview" class="view">
+	<div class="midbox">
+		<form action="">
+			<label class="row"><span>Username:</span><input type="text" name="username"></label>
+			<label class="row"><span>Password:</span><input type="password" name="pwd"></label>
+			<label><input type="checkbox" name="remember"> Remember me</label>
+			<input type="submit" value="Login!">
+		</form>
+		<div id="loadingstatus">
+			<img alt=""><span></span>
+		</div>
+	</div>
+</div>
+
+<div id="errorview" class="view">
+	<div id="error-holder">
+		<h1 id="error-title"></h1>
+		<span id="error-msg"></span>
+	</div>
+</div>
+
+<div id="menuview" class="view"></div>
+
+<div id="matchmakingview" class="view">
+	<div id="mm-header">
+		<h1><span>Duel</span> [D]</h1>
+		<h1><span>Watch</span> [W]</h1>
+	</div>
+	<div id="mm-main">
+		<div id="mm-main-box"></div>
+		<ul id="mm-tabs"></ul>
+	</div>
+	<div id="mm-footer">
+		<div id="mm-footer-cont">
+			Deck: <select id="mm-deck"></select>
+		</div>
+	</div>
+	<div id="mm-side">
+		<div id="mm-side-cont">
+			<div id="mm-search">
+				<div id="mm-search-field">
+					Username or note:
+					<input type="input">
+				</div>
+				<div id="mm-search-rating">
+					<input type="input">
+					≤ Rating ≤
+					<input type="input">
+				</div>
+				<div id="mm-search-exp">
+					<input type="input">
+					≤ Experience ≤
+					<input type="input">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="duelview" class="view">
+	<div id="duel-ui"></div>
+	<div id="duel-detail">
+		<div id="duel-detail-name-holder">
+			<div id="duel-detail-name"></div>
+		</div>
+		<div id="duel-detail-nonname">
+			<div id="duel-detail-info"></div>
+			<div id="duel-detail-text"></div>
+		</div>
+	</div>
+</div>
+
+</div>
+<div id="commands">
+	<h2>Commands</h2>
+</div>
+<div id="duel-cardholder"></div>
+</div>
+<menu type="context" id="contextmenu"></menu>
+<div id="hiddentext"></div>
+</body>
+</html>

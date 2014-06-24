@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="310px" height="110px"
+xml:space="preserve">
+<g id="PathID_986" transform="matrix(1, 0, 0, 1, -358.45, -516.5)">
+<path style="fill:#CC6699;fill-opacity:1" d="M665.95 529L665.95 614Q665.95 624 655.95 624L370.95 624Q360.95 624 360.95 614L360.95 529Q360.95 519 370.95 519L655.95 519Q665.95 519 665.95 529" />
+<path style="fill:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;stroke:#990099;stroke-opacity:1" d="M655.95 519L370.95 519Q360.95 519 360.95 529" />
+<path style="fill:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;stroke:#990099;stroke-opacity:1" d="M360.95 529L360.95 614Q360.95 624 370.95 624" />
+<path style="fill:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;stroke:#990099;stroke-opacity:1" d="M370.95 624L655.95 624Q665.95 624 665.95 614" />
+<path style="fill:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;stroke:#990099;stroke-opacity:1" d="M665.95 614L665.95 529Q665.95 519 655.95 519" />
+</g>
+</svg>

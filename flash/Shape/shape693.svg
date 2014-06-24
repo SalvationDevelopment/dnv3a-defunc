@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="200px" height="200px"
+xml:space="preserve">
+<g id="PathID_726" transform="matrix(1, 0, 0, 1, -145.25, -52.3)">
+<path style="fill:#DF9927;fill-opacity:1" d="M345.25 252.3L145.25 252.3L145.25 52.3L345.25 52.3L345.25 252.3" />
+</g>
+<g id="PathID_727" transform="matrix(1, 0, 0, 1, -145.25, -52.3)">
+<radialGradient
+id="RadialGradID_348" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.0773621, 0, 0, 0.0773621, 244.45, 136.8)" spreadMethod ="pad" cx="0" cy="0" r="819.2" fx="0" fy="0" >
+<stop  offset="0"  style="stop-color:#F3D6AC;stop-opacity:1" />
+<stop  offset="1"  style="stop-color:#DF9927;stop-opacity:1" />
+</radialGradient>
+<path style="fill:url(#RadialGradID_348) " d="M306.95 136.8Q306.95 162.65 288.6 180.95Q270.3 199.3 244.45 199.3Q218.6 199.3 200.25 180.95Q181.95 162.65 181.95 136.8Q181.95 110.95 200.25 92.6Q218.6 74.3 244.45 74.3Q270.3 74.3 288.6 92.6Q306.95 110.95 306.95 136.8" />
+</g>
+</svg>
